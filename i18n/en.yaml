@@ -1,0 +1,80 @@
+- id: Search
+  translation: Search
+
+- id: Edit this page
+  translation: Edit this page
+
+- id: Last modified by
+  translation: Last modified by
+
+- id: Expand
+  translation: Expand
+
+- id: bookSearchConfig
+  translation: '{ cache: true }'
+
+- id: 404_message
+  translation: "Hey! You look a little lost. This page doesn't exist (or may be private)."
+
+- id: 404_back
+  translation: "↳ Let's get you home."
+
+- id: all_posts
+  translation: "All {{.Title}}"
+
+- id: last_updated
+  translation: "Last updated"
+
+- id: notes_count
+  translation: "notes with this tag"
+
+- id: first_10
+  translation: "showing first 10 results"
+
+- id: tag
+  translation: "Tag"
+
+- id: backlinks
+  translation: "Backlinks"
+
+- id: no_backlinks
+  translation: "No backlinks found"
+
+- id: home
+  translation: "Home"
+
+- id: light_mode
+  translation: "Light Mode"
+
+- id: dark_mode
+  translation: "Dark Mode"
+
+- id: edit_source
+  translation: "Edit Source"
+
+- id: interactive_graph
+  translation: "Interactive Graph"
+
+- id: search
+  translation: "Search"
+
+- id: search_icon
+  translation: "Search Icon"
+
+- id: icon_search
+  translation: "Icon to open search"
+
+- id: recent_notes
+  translation: "Recent Notes"
+
+- id: first_3_notes
+  translation: "first 3 {{ .notes }}"
+
+- id: search_for_something
+  translation: "Search for something..."
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: copyright
+  translation: "Made with <a href=\"https://github.com/64bitpandas/amethyst\">Amethyst</a>, © {{ .year }} {{ .name }}"

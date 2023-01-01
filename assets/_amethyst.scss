@@ -1,0 +1,80 @@
+$header-height: 80px;
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0px 80px;
+    z-index: 9999;
+    background-color: #88ddff;
+    margin: 0 !important;
+    height: $header-height;
+}
+
+.book-menu,
+.book-menu-content,
+.book-toc-content,
+.book-page {
+    margin-top: $header-height;
+}
+
+.book-header {
+    display: flex;
+    padding: 30px;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .book-header {
+        justify-content: space-between;
+    }
+
+    #page-title {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu-search {
+        display: block;
+
+        #search-icon {
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+
+    header #search-icon {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+    .book-icon {
+        display: none;
+    }
+
+    .menu-search {
+        display: none !important;
+    }
+
+    header #search-icon {
+        display: block;
+        margin-right: 20px;
+    }
+}
+
+.book-toc-content::-webkit-scrollbar,
+.book-menu-content::-webkit-scrollbar {
+    width: 10px;
+    height: 16px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 8px;
+    // box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+*::-webkit-scrollbar-track {
+    // background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+    background-color: #DDD;
+}

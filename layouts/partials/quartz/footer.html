@@ -1,0 +1,16 @@
+
+
+<hr/>
+
+{{/*  {{if $.Site.Params.enableFooter}}  */}}
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        {{partial "quartz/backlinks.html" .}}
+    </div>
+    <div>
+        {{partial "quartz/graph.html" .}}
+    </div>
+</div>
+{{/*  {{end}}  */}}
+
+{{partial "quartz/contact.html" .}}

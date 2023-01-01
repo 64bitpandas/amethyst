@@ -1,0 +1,206 @@
+<!-- set data/config yaml file based on website language -->
+{{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
+{{ $data := $.Site.Params }}
+<!-- Meta tags -->
+<meta charset="UTF-8" />
+<meta
+  name="description"
+  content="{{if .IsHome}}{{$data.description | default $.Site.Params.description}}{{else}}{{.Summary}}{{end}}"
+/>
+<title>
+  {{ if .Title }}{{ .Title }}{{ else }}{{ $.Site.Params.title | default $.Site.Params.title }}{{
+  end }}
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- HTML Favicon -->
+{{ $favicon := $data.favicon  | default $.Site.Params.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "favicon.png")) }}
+{{ $type := (printf "%T" $favicon) }}
+{{ if eq $type "string" }}
+{{ $favicon | safeHTML }}
+{{ else }}
+{{ range $favicon }}
+<link rel="{{.rel}}" {{if .type}}type="{{.type}}"{{end}} {{if .sizes}}sizes="{{.sizes}}"{{end}} href="{{$.Site.BaseURL}}/{{.href}}" />
+{{- end }}
+{{ end }}
+
+<!-- CSS Stylesheets and Fonts -->
+{{$sass := resources.Match "quartz/styles/[!_]*.scss" }}
+{{$css := slice }}
+{{range $sass}}
+{{$scss := . | resources.ToCSS (dict "outputStyle" "compressed") }}
+{{$css = $css | append $scss}}
+{{end}}
+{{if $data.enableCallouts | default $.Site.Params.enableCallouts}}
+  {{$scss := resources.Get "quartz/styles/_callouts.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
+  {{$css = $css | append $scss}}
+{{end}}
+{{$finalCss := $css | resources.Concat "styles.css" | resources.Fingerprint "md5" | resources.Minify  }}
+<link href="{{$finalCss.Permalink}}" rel="stylesheet" />
+
+{{$lightSyntax := resources.Get "quartz/styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
+<link href="{{$lightSyntax.Permalink}}" rel="stylesheet" id="theme-link">
+
+  <!-- Base scripts -->
+{{partial "quartz/katex" .}}
+  
+{{partial "quartz/mermaid" .}}
+{{$scripts := (slice "quartz/js/darkmode.js" "quartz/js/util.js")}}
+{{range $scripts}}
+{{$scriptname := .}}
+{{ $s := resources.Get $scriptname | resources.ExecuteAsTemplate $scriptname . | resources.Fingerprint "md5" | resources.Minify }}
+<script src="{{$s.Permalink}}"></script>
+{{end}}
+
+
+<script async src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+<script async src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+{{ $popover := resources.Get "quartz/js/popover.js" | resources.Fingerprint "md5" |
+resources.Minify }}
+<script src="{{$popover.Permalink}}"></script>
+
+<!-- Optional scripts -->
+{{ if $data.enableCodeBlockTitle | default $.Site.Params.enableCallouts }}
+{{ $codeTitle := resources.Get "quartz/js/code-title.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{$codeTitle.Permalink}}"></script>
+{{end}}
+
+{{ if $data.enableCodeBlockCopy | default $.Site.Params.enableCodeBlockCopy }}
+{{ $clipboard := resources.Get "quartz/js/clipboard.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{$clipboard.Permalink}}"></script>
+{{ end }}
+
+{{ if $data.enableCallouts | default $.Site.Params.enableCallouts }}
+{{ $callouts := resources.Get "quartz/js/callouts.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{$callouts.Permalink}}"></script>
+{{ end }}
+
+<!--  Preload page vars  -->
+{{$linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint
+"md5" | resources.Minify | }} {{$contentIndex := resources.Get
+"indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify
+}}
+<script>
+  const SEARCH_ENABLED = {{.Site.Params.search.enableSemanticSearch}}
+  const LATEX_ENABLED = {{.Site.Params.enableLatex}}
+  const PRODUCTION = {{ hugo.IsProduction }}
+  const BASE_URL = {{.Site.BaseURL}}
+  const fetchData = Promise.all([
+        fetch("{{ $linkIndex.Permalink }}")
+          .then(data => data.json())
+          .then(data => ({
+            index: data.index,
+            links: data.links,
+          })),
+        fetch("{{ $contentIndex.Permalink }}")
+          .then(data => data.json()),
+      ])
+      .then(([{index, links}, content]) => ({
+        index,
+        links,
+        content,
+      }))
+
+    const render = () => {
+    // NOTE: everything within this callback will be executed for every page navigation. This is a good place to put JavaScript that loads or modifies data on the page, adds event listeners, etc. If you are only dealing with basic DOM replacement, use the init function
+    const siteBaseURL = new URL(BASE_URL);
+    const pathBase = siteBaseURL.pathname;
+    const pathWindow = window.location.pathname;
+    const isHome = pathBase == pathWindow;
+
+    {{if $data.enableCodeBlockCopy | default $.Site.Params.enableCodeBlockCopy -}}
+    addCopyButtons();
+    {{ end }}
+
+    {{if $data.enableSPA | default $.Site.Params.enableSPA -}}
+    addTitleToCodeBlocks();
+    {{ end }}
+
+    {{if $data.enableCallouts | default $.Site.Params.enableCallouts -}}
+    addCollapsibleCallouts();
+    {{ end }}
+
+    {{if $data.enableLinkPreview | default $.Site.Params.enableLinkPreview}}
+    initPopover(
+      {{strings.TrimRight "/" .Site.BaseURL }},
+      {{$data.enableContextualBacklinks | default $.Site.Params.enableContextualBacklinks}}
+    )
+    {{end}}
+
+    {{if $data.enableFooter | default $.Site.Params.enableFooter}}
+    const footer = document.getElementById("footer")
+    if (footer) {
+      const container = document.getElementById("graph-container")
+      // retry if the graph is not ready
+      if (!container) return requestAnimationFrame(render)
+      // clear the graph in case there is anything within it
+      container.textContent = ""
+
+      const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}};
+      drawGraph(
+          {{strings.TrimRight "/" .Site.BaseURL}},
+          drawGlobal,
+          {{$.Site.Data.graphConfig.paths}},
+          drawGlobal ? {{$.Site.Data.graphConfig.globalGraph}} : {{$.Site.Data.graphConfig.localGraph}}
+        );
+
+      }
+    {{end}}
+
+    {{if $data.enableMermaid | default $.Site.Params.enableMermaid}}
+      var els = document.getElementsByClassName("mermaid");
+      if (els.length > 0) {
+        import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          (obj) => {
+            // init forces mermaid to render mermaid markdown without waiting
+            // for DOMContentLoaded event
+            obj.default.init();
+          }
+        )
+      }
+    {{end}}
+  }
+
+  const init = (doc = document) => {
+    // NOTE: everything within this callback will be executed for initial page navigation. This is a good place to put JavaScript that only replaces DOM nodes.
+    {{if $data.enableCodeBlockCopy | default $.Site.Params.enableCodeBlockCopy -}}
+    addCopyButtons();
+    {{ end }}
+
+    {{if $data.enableCodeBlockTitle | default $.Site.Params.enableCodeBlockTitle -}}
+    addTitleToCodeBlocks();
+    {{- end -}}
+    {{if $data.enableLatex | default $.Site.Params.enableLatex}}
+    renderMathInElement(doc.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+      ],
+      macros: {
+        '’': "'"
+      },
+      throwOnError : false
+    });
+    {{end}}
+  };
+</script>
+{{if $data.enableSPA | default $.Site.Params.enableSPA}}
+{{ $router := resources.Get "quartz/js/router.js" | resources.Fingerprint "md5" |
+resources.Minify }}
+<script type="module">
+  import { attachSPARouting } from "{{$router.Permalink}}"
+  attachSPARouting(init, render)
+</script>
+{{else}}
+<script>
+  window.Million = {
+    navigate: (url) => (window.location.href = url),
+    prefetch: () => {},
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    init()
+    render()
+  })
+</script>
+{{end}}

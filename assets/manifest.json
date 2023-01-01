@@ -1,0 +1,15 @@
+{
+  "name": "{{ .Site.Params.Title }}",
+  "short_name": "{{ .Site.Params.Title }}",
+  "start_url": "{{ "/" | relURL }}",
+  "scope": "{{ "/" | relURL }}",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "{{ "/favicon.png" | relURL }}",
+      "sizes": "1024x1024"
+    }
+  ]
+}
