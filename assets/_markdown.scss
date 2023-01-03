@@ -58,9 +58,9 @@
     &:hover {
       text-decoration: underline;
     }
-    &:visited {
-      color: var(--color-visited-link);
-    }
+    // &:visited {
+    //   color: var(--color-visited-link);
+    // }
   }
 
   img {
@@ -162,8 +162,12 @@
 
   details {
     padding: $padding-16;
-    border: $padding-1 solid var(--gray-200);
-    border-radius: $border-radius;
+    border: none !important;
+    font-family: var(--font-body);
+    font-weight: bold;
+    color: var(--dark);
+    // border: $padding-1 solid var(--gray-200);
+    // border-radius: $border-radius;
 
     summary {
       line-height: 1;

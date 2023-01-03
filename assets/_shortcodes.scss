@@ -4,15 +4,17 @@
     margin-top: $padding-16;
     margin-bottom: $padding-16;
 
-    border: $padding-1 solid var(--gray-200);
+    border: 2px solid var(--secondary);
     border-radius: $border-radius;
 
     overflow: hidden;
 
     .book-expand-head {
-      background: var(--gray-100);
+      color: var(--secondary);
+      font-family: var(--font-body);
       padding: $padding-8 $padding-16;
       cursor: pointer;
+      font-weight: bold;
     }
 
     .book-expand-content {
@@ -80,10 +82,10 @@
   a.book-btn {
     display: inline-block;
     font-size: $font-size-14;
-    color: var(--color-link);
+    color: var(--secondary);
     line-height: $padding-16 * 2;
     padding: 0 $padding-16;
-    border: $padding-1 solid var(--color-link);
+    border: $padding-1 solid var(--secondary);
     border-radius: $border-radius;
     cursor: pointer;
 

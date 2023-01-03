@@ -5,7 +5,7 @@ header {
     width: 100%;
     padding: 0px 80px;
     z-index: 9999;
-    background-color: #88ddff;
+    background-color: var(--header);
     margin: 0 !important;
     height: $header-height;
 }
@@ -20,6 +20,10 @@ header {
 .book-header {
     display: flex;
     padding: 30px;
+}
+
+#page-title a {
+    color: var(--dark);
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
@@ -84,17 +88,23 @@ pre::-webkit-scrollbar {
     background-color: #DDD;
 }
 
-.markdown h1, .markdown h2, .markdown h3 {
+.markdown h1,
+.markdown h2,
+.markdown h3 {
     font-weight: bold;
 }
 
-.markdown p {
-    color: #222;
-    font-weight: 500;
-}
-
 .title {
-    color: blue;
+    color: var(--secondary);
     font-size: 3rem;
     padding-bottom: 1rem;
+}
+
+.book-toc-content {
+    font-weight: normal;
+}
+
+.book-menu-content a:hover,
+.book-toc-content a:hover {
+    opacity: 100%;
 }
