@@ -31,10 +31,10 @@ menu:
 params:
 
   name: Ben Cuan
-  title: 📓 Ben's Notes
+  title: 📓 Amethyst
 
   # OPTIONAL: custom favicon location
-  # favicon: 'location/to/favicon. png'
+  # favicon: 'location/to/favicon.png'
 
   # Show previews for links to other internal pages.
   enableLinkPreview: true

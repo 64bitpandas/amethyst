@@ -28,39 +28,39 @@ $hint-colors: (
   danger: #f66,
 ) !default;
 
-// Themes
-@mixin theme-light {
-  --gray-100: #f8f9fa;
-  --gray-200: #e9ecef;
-  --gray-500: #adb5bd;
+// Themes: USE QUARTZ INSTEAD
+// @mixin theme-light {
+//   --gray-100: #f8f9fa;
+//   --gray-200: #e9ecef;
+//   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+//   --color-link: #0055bb;
+//   --color-visited-link: #8440f1;
 
-  --body-background: white;
-  --body-font-color: black;
+//   --body-background: white;
+//   --body-font-color: black;
 
-  --icon-filter: none;
+//   --icon-filter: none;
 
-  --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
-  --hint-color-danger: #f66;
-}
+//   --hint-color-info: #6bf;
+//   --hint-color-warning: #fd6;
+//   --hint-color-danger: #f66;
+// }
 
-@mixin theme-dark {
-  --gray-100: rgba(255, 255, 255, 0.1);
-  --gray-200: rgba(255, 255, 255, 0.2);
-  --gray-500: rgba(255, 255, 255, 0.5);
+// @mixin theme-dark {
+//   --gray-100: rgba(255, 255, 255, 0.1);
+//   --gray-200: rgba(255, 255, 255, 0.2);
+//   --gray-500: rgba(255, 255, 255, 0.5);
 
-  --color-link: #84b2ff;
-  --color-visited-link: #b88dff;
+//   --color-link: #84b2ff;
+//   --color-visited-link: #b88dff;
 
-  --body-background: #343a40;
-  --body-font-color: #e9ecef;
+//   --body-background: #343a40;
+//   --body-font-color: #e9ecef;
 
-  --icon-filter: brightness(0) invert(1);
+//   --icon-filter: brightness(0) invert(1);
 
-  --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
-  --hint-color-danger: #f66;
-}
+//   --hint-color-info: #6bf;
+//   --hint-color-warning: #fd6;
+//   --hint-color-danger: #f66;
+// }

@@ -1,10 +1,10 @@
 <!-- set data/config yaml file based on website language -->
-{{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
+{{/*  {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}  */}}
 {{ $data := $.Site.Params }}
 <!-- Contact Info -->
 <div id="contact_buttons">
     <footer>
-        {{ $name := $data.name | default $.Site.Pkarams.name }}
+        {{ $name := $data.name | default $.Site.Params.name }}
         {{ $year := dateFormat "2006" now }}
         <p>{{ i18n "copyright" (dict "name" $name "year" $year) | safeHTML}}</p>
         <ul>
