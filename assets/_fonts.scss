@@ -1,39 +1,71 @@
-/* roboto-regular - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "PP Mori";
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(''),
-       url('fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* roboto-700 - latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('fonts/roboto-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: normal;
+  src: url('fonts/PPMori-SemiBold.woff2');
 }
 
-/* roboto-mono-regular - latin */
 @font-face {
-  font-family: 'Roboto Mono';
+  font-family: "PP Mori";
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(''),
-       url('fonts/roboto-mono-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-mono-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: lighter;
+  src: url('fonts/PPMori-Book.woff2');
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/PPMori-ExtraBold.woff2');
 }
 
-code {
-  font-family: 'Roboto Mono', monospace;
+@font-face {
+  font-family: "PP Mori";
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/PPMori-RegularItalic.woff2');
+}
+
+@font-face {
+  font-family: "PP Mori";
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/PPMori-SemiBoldItalic.woff2');
+}
+
+
+
+@font-face {
+  font-family: "PP Fraktion Mono";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/PPFraktionMono-Regular.woff2');
+}
+
+@font-face {
+  font-family: "PP Fraktion Mono";
+  font-style: normal;
+  font-weight: lighter;
+  src: url('fonts/PPFraktionMono-Light.woff2');
+}
+
+@font-face {
+  font-family: "PP Fraktion Mono";
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/PPFraktionMono-Bold.woff2');
+}
+
+@font-face {
+  font-family: "PP Fraktion Mono";
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/PPFraktionMono-RegularItalic.woff2');
+}
+
+@font-face {
+  font-family: "PP Fraktion Mono";
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/PPFraktionMono-BoldItalic.woff2');
 }

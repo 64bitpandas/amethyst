@@ -2,7 +2,6 @@
 title: "Deploying Quartz to the Web"
 tags:
 - setup
-weight: -1
 aliases:
 - hosting
 ---

@@ -1,6 +1,4 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
-
-name: Ben Cuan
 baseURL: https://notes.bencuan.me
 
 # Book configuration
@@ -32,6 +30,7 @@ menu:
 
 params:
 
+  name: Ben Cuan
   title: 📓 Ben's Notes
 
   # OPTIONAL: custom favicon location
@@ -134,7 +133,7 @@ params:
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker: true
+  BookServiceWorker: false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.

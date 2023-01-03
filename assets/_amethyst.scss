@@ -68,6 +68,11 @@ header {
     height: 16px;
 }
 
+pre::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
 *::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 8px;
@@ -77,4 +82,19 @@ header {
 *::-webkit-scrollbar-track {
     // background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
     background-color: #DDD;
+}
+
+.markdown h1, .markdown h2, .markdown h3 {
+    font-weight: bold;
+}
+
+.markdown p {
+    color: #222;
+    font-weight: 500;
+}
+
+.title {
+    color: blue;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
