@@ -1,4 +1,5 @@
 .markdown {
+
   // {{< expand "Label" "icon" >}}
   .book-expand {
     margin-top: $padding-16;
@@ -22,7 +23,7 @@
       padding: $padding-16;
     }
 
-    input[type="checkbox"]:checked + .book-expand-content {
+    input[type="checkbox"]:checked+.book-expand-content {
       display: block;
     }
   }
@@ -32,7 +33,7 @@
     margin-top: $padding-16;
     margin-bottom: $padding-16;
 
-    border: $padding-1 solid var(--gray-200);
+    border: $padding-1 solid var(--dark);
     border-radius: $border-radius;
 
     overflow: hidden;
@@ -50,20 +51,24 @@
     .book-tabs-content {
       order: 999; //Move content blocks to the end
       width: 100%;
-      border-top: $padding-1 solid var(--gray-100);
+      // border-top: $padding-1 solid var(--dark);
       padding: $padding-16;
       display: none;
     }
 
-    input[type="radio"]:checked + label {
-      border-bottom: $padding-1 solid var(--color-link);
+    input[type="radio"]:checked+label {
+      border-bottom: $padding-1 * 2 solid var(--secondary);
+      color: var(--secondary);
+      font-weight: bold;
     }
-    input[type="radio"]:checked + label + .book-tabs-content {
+
+    input[type="radio"]:checked+label+.book-tabs-content {
       display: block;
     }
-    input[type="radio"]:focus + label {
-      @include outline;
-    }
+
+    // input[type="radio"]:focus+label {
+    //   @include outline;
+    // }
   }
 
   // {{< columns >}}
@@ -71,7 +76,7 @@
     margin-left: -$padding-16;
     margin-right: -$padding-16;
 
-    > div {
+    >div {
       margin: $padding-16 0;
       min-width: $body-min-width / 2;
       padding: 0 $padding-16;
@@ -96,7 +101,9 @@
 
   // {{< hint >}}
   .book-hint {
-    @each $name, $color in $hint-colors {
+
+    @each $name,
+    $color in $hint-colors {
       &.#{$name} {
         border-color: $color;
         background-color: rgba($color, 0.1);

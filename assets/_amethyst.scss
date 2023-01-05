@@ -95,7 +95,7 @@ pre::-webkit-scrollbar {
 }
 
 .title {
-    color: var(--secondary);
+    color: var(--title);
     font-size: 3rem;
     padding-bottom: 1rem;
 }
@@ -107,4 +107,27 @@ pre::-webkit-scrollbar {
 .book-menu-content a:hover,
 .book-toc-content a:hover {
     opacity: 100%;
+}
+
+.book-menu-title {
+    font-weight: bolder;
+    color: var(--title);
+    opacity: 1;
+}
+
+.book-menu input.toggle+label::after {
+    font-size: 150%;
+}
+
+.book-menu input.toggle+label:hover {
+    color: var(--secondary);
+}
+
+.markdown-inner, .book-tabs {
+    font-family: var(--font-body);
+    color: var(--dark);
+}
+
+.book-tabs {
+    border: solid black 1px;
 }
