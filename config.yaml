@@ -87,9 +87,9 @@ params:
   # Footer links
   links:
     - link_name: Website
-      link: https://twitter.com/_jzhao
-    - link_name: GitHub
-      link: https://github.com/jackyzha0
+      link: https://bencuan.me
+    - link_name: Blog
+      link: https://blog.bencuan.me
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
