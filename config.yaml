@@ -6,12 +6,12 @@ disablePathToLower: true
 enableGitInfo: true
 
 # # Needed for mermaid/katex shortcodes
-# markup:
-#   goldmark:
-#     renderer:
-#       unsafe: true
-#   tableOfContents:
-#     startLevel: 1
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
 
 # Multi-lingual mode config
 # There are different options to translate files
@@ -19,14 +19,14 @@ enableGitInfo: true
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 
 menu:
-  # before: []
+  # before:
+  #   - name: "Sample"
+  #     url: "https://google.com"
+  #     weight: 10
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/64bitpandas/amethyst"
       weight: 10
-    # - name: "Hugo Themes"
-    #   url: "https://themes.gohugo.io/hugo-book/"
-    #   weight: 20
 
 params:
 

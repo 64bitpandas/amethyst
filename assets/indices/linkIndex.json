@@ -58,228 +58,1460 @@
           "text": "notes/foo/footest"
         }
       ],
-      "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
+      "/configuration/config": [
         {
-          "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "target": "/notes/config",
-          "text": "config"
-        }
-      ],
-      "/notes/config": [
-        {
-          "source": "/notes/config",
+          "source": "/configuration/config",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         },
         {
-          "source": "/notes/config",
+          "source": "/configuration/config",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
           "text": "CJK + Latex Support (测试)"
         }
       ],
-      "/notes/docker": [
+      "/configuration/docker": [
         {
-          "source": "/notes/docker",
+          "source": "/configuration/docker",
           "target": "/notes/preview-changes",
           "text": "install Quartz's dependencies manually"
         }
       ],
-      "/notes/editing": [
+      "/configuration/editing": [
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/obsidian",
           "text": "How to setup your Obsidian Vault to work with Quartz"
         },
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/preview-changes",
           "text": "Preview Quartz Changes"
         },
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/hosting",
           "text": "Hosting Quartz online!"
         },
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         }
       ],
-      "/notes/hosting": [
+      "/configuration/hosting": [
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/custom-Domain",
           "text": "Learn how to set it up with Quartz"
         },
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/ignore-notes",
           "text": "Excluding pages from being published"
         },
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/docker",
           "text": "Docker"
         },
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/config",
           "text": "Customizing Quartz"
         },
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         }
       ],
-      "/notes/obsidian": [
+      "/configuration/obsidian": [
         {
-          "source": "/notes/obsidian",
+          "source": "/configuration/obsidian",
           "target": "/notes/setup",
           "text": "setup"
         },
         {
-          "source": "/notes/obsidian",
+          "source": "/configuration/obsidian",
           "target": "/notes/preview-changes",
           "text": "Preview Quartz Changes"
         }
       ],
-      "/notes/preview-changes": [
+      "/configuration/preview-changes": [
         {
-          "source": "/notes/preview-changes",
+          "source": "/configuration/preview-changes",
           "target": "/notes/hosting",
           "text": "Hosting Quartz online!"
         }
       ],
-      "/notes/setup": [
+      "/configuration/setup": [
         {
-          "source": "/notes/setup",
+          "source": "/configuration/setup",
           "target": "/notes/editing",
           "text": "Editing Notes in Quartz"
         },
         {
-          "source": "/notes/setup",
+          "source": "/configuration/setup",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         }
       ],
-      "/notes/troubleshooting": [
+      "/configuration/troubleshooting": [
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
           "text": "CJK + Latex Support (测试)"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "hosting"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/ignore-notes",
           "text": "excluding pages from being published"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "hosting"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/obsidian",
           "text": "Obsidian"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/editing",
           "text": "the 'how to edit' guide"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "the hosting guide"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/config",
           "text": "customization guide"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/editing",
           "text": "local editing"
         }
       ],
-      "/posts/goisforlovers": [
+      "/cs61b/": [
         {
-          "source": "/posts/goisforlovers",
-          "target": "/layout/variables",
-          "text": "variables"
+          "source": "/cs61b/",
+          "target": "/oop/access-control",
+          "text": "Access Control"
         },
         {
-          "source": "/posts/goisforlovers",
-          "target": "/layout/functions",
-          "text": "Hugo template\nfunctions"
+          "source": "/cs61b/",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
         },
         {
-          "source": "/posts/goisforlovers",
-          "target": "/content/front-matter",
-          "text": "front matter"
+          "source": "/cs61b/",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/searching/",
+          "text": "Searching"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
         }
       ],
-      "/posts/migrate-from-jekyll": [
+      "/cs61b/SUMMARY": [
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/overview/configuration/",
-          "text": "Hugo configuration documentation"
+          "source": "/cs61b/SUMMARY",
+          "target": "/CS61B-Index",
+          "text": "Welcome"
         },
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/layout/templates/",
-          "text": "Hugo's template"
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/inheritance",
+          "text": "Inheritance"
         },
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/doc/shortcodes/",
-          "text": "shortcodes"
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/access-control",
+          "text": "Access Control"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/objects",
+          "text": "Java Objects"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/amortization",
+          "text": "Amortization"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/README",
+          "text": "Collections"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/arrays",
+          "text": "Arrays"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/README",
+          "text": "Binary Trees"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/heaps",
+          "text": "Heaps"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/balanced-search-structures",
+          "text": "Balanced BSTs"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/tries",
+          "text": "Tries"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/graphs",
+          "text": "Graphs"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/hashing",
+          "text": "Hashing and Hash Tables"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/comparables-and-comparators",
+          "text": "Comparables and Comparators"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimax",
+          "text": "Minimax Algorithm"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/README",
+          "text": "Searching"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/breadth-first-search-bfs",
+          "text": "Breadth First Search (BFS)"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/README",
+          "text": "Shortest Paths"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/a-search",
+          "text": "A* Search"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/README",
+          "text": "Minimum Spanning Trees"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
+          "text": "Prim's Algorithm"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/modular-arithmetic",
+          "text": "Modular Arithmetic and Bit Manipulation"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
+        },
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/more-resources",
+          "text": "More Resources"
+        }
+      ],
+      "/cs61b/abstract-data-types/binary-trees/README": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/binary-search",
+          "text": "binary-search.md"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/balanced-search-structures",
+          "text": "Balanced BSTs"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../graphs",
+          "text": "Graphs"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/tries",
+          "text": "Tries"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../hashing",
+          "text": "Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/depth-first-search-dfs",
+          "text": "depth-first-search-dfs.md"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/breadth-first-search-bfs",
+          "text": "breadth-first-search-bfs.md"
+        }
+      ],
+      "/cs61b/abstract-data-types/binary-trees/balanced-search-structures": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
+          "target": "/./",
+          "text": "Binary Trees"
+        }
+      ],
+      "/cs61b/abstract-data-types/binary-trees/tries": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/../hashing",
+          "text": "Hashing and Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/../collections/sets",
+          "text": "Sets"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/README": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/arrays",
+          "text": "ArrayLists"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/../hashing",
+          "text": "Hashing and Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/stacks-and-queues",
+          "text": "Stacks and Queues"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/arrays": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../oop/objects",
+          "text": "Java Objects"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../asymptotics/amortization",
+          "text": "Amortization"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../oop/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/./",
+          "text": "Collections"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/linked-lists": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/linked-lists",
+          "target": "/arrays",
+          "text": "Arrays"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/sets": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/sets",
+          "target": "/../../asymptotics/amortization",
+          "text": "resized"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/stacks-and-queues": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "finding shortest paths using Dijkstra's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "target": "/stacks-and-queues",
+          "text": "Priority Queues"
+        }
+      ],
+      "/cs61b/abstract-data-types/graphs": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/searching/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/searching/breadth-first-search-bfs",
+          "text": "Breadth First Search (BFS)"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/",
+          "text": "Minimum Spanning Trees"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/a-search",
+          "text": "A* Search"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
+          "text": "Prim's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        }
+      ],
+      "/cs61b/abstract-data-types/hashing": [
+        {
+          "source": "/cs61b/abstract-data-types/hashing",
+          "target": "/../asymptotics/amortization",
+          "text": "Amortization"
+        }
+      ],
+      "/cs61b/abstract-data-types/union-find-disjoint-sets": [
+        {
+          "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
+          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        }
+      ],
+      "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm": [
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/./",
+          "text": "Minimum Spanning Trees"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "PriorityQueue"
+        }
+      ],
+      "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm": [
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/./README",
+          "text": "Minimum Spanning Trees"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "PriorityQueue"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/../shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's"
+        }
+      ],
+      "/cs61b/algorithms/searching/README": [
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/binary-search",
+          "text": "binary-search.md"
+        },
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/depth-first-search-dfs",
+          "text": "depth-first-search-dfs.md"
+        },
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/breadth-first-search-bfs",
+          "text": "breadth-first-search-bfs.md"
+        }
+      ],
+      "/cs61b/algorithms/searching/binary-search": [
+        {
+          "source": "/cs61b/algorithms/searching/binary-search",
+          "target": "/../../abstract-data-types/binary-trees/",
+          "text": "binary trees"
+        }
+      ],
+      "/cs61b/algorithms/searching/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+          "target": "/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        },
+        {
+          "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+          "target": "/../shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/cs61b/algorithms/shortest-paths/a-search": [
+        {
+          "source": "/cs61b/algorithms/shortest-paths/a-search",
+          "target": "/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/cs61b/algorithms/shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/../../abstract-data-types/graphs",
+          "text": "Graphs"
+        },
+        {
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/./",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/cs61b/asymptotics/amortization": [
+        {
+          "source": "/cs61b/asymptotics/amortization",
+          "target": "/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        }
+      ],
+      "/cs61b/asymptotics/asymptotics": [
+        {
+          "source": "/cs61b/asymptotics/asymptotics",
+          "target": "/asymptotics-practice",
+          "text": "try some problems!"
+        },
+        {
+          "source": "/cs61b/asymptotics/asymptotics",
+          "target": "/asymptotics",
+          "text": "Simplify"
+        }
+      ],
+      "/cs61b/asymptotics/asymptotics-practice": [
+        {
+          "source": "/cs61b/asymptotics/asymptotics-practice",
+          "target": "/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        }
+      ],
+      "/cs61b/misc-topics/modular-arithmetic": [
+        {
+          "source": "/cs61b/misc-topics/modular-arithmetic",
+          "target": "/../oop/objects",
+          "text": "Java Objects"
+        }
+      ],
+      "/cs61b/oop/dynamic-method-selection": [
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/inheritance",
+          "text": "inheritance"
+        },
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/access-control",
+          "text": "access control"
+        },
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/inheritance",
+          "text": "Interfaces"
+        },
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/../abstract-data-types/collections/",
+          "text": "Collections"
+        }
+      ],
+      "/cs61b/oop/generics": [
+        {
+          "source": "/cs61b/oop/generics",
+          "target": "/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
+          "source": "/cs61b/oop/generics",
+          "target": "/inheritance",
+          "text": "inheritance rules"
+        }
+      ],
+      "/cs61b/oop/inheritance": [
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/access-control",
+          "text": "Access Control"
+        },
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/objects",
+          "text": "References, Objects, and Types in Java"
+        },
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        }
+      ],
+      "/cs61b/oop/objects": [
+        {
+          "source": "/cs61b/oop/objects",
+          "target": "/../misc-topics/modular-arithmetic",
+          "text": "Modular Arithmetic and Bit Manipulation"
+        },
+        {
+          "source": "/cs61b/oop/objects",
+          "target": "/../abstract-data-types/collections/",
+          "text": "collections"
+        }
+      ],
+      "/features/languages": [
+        {
+          "source": "/features/languages",
+          "target": "/notes/config",
+          "text": "config"
         }
       ]
     },
     "backlinks": {
-      "/content/front-matter": [
+      "/../../abstract-data-types/binary-trees/": [
         {
-          "source": "/posts/goisforlovers",
-          "target": "/content/front-matter",
-          "text": "front matter"
+          "source": "/cs61b/algorithms/searching/binary-search",
+          "target": "/../../abstract-data-types/binary-trees/",
+          "text": "binary trees"
         }
       ],
-      "/doc/shortcodes/": [
+      "/../../abstract-data-types/collections/stacks-and-queues": [
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/doc/shortcodes/",
-          "text": "shortcodes"
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "PriorityQueue"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "PriorityQueue"
+        },
+        {
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/../../abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
         }
       ],
-      "/layout/functions": [
+      "/../../abstract-data-types/graphs": [
         {
-          "source": "/posts/goisforlovers",
-          "target": "/layout/functions",
-          "text": "Hugo template\nfunctions"
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/../../abstract-data-types/graphs",
+          "text": "Graphs"
         }
       ],
-      "/layout/templates/": [
+      "/../../abstract-data-types/union-find-disjoint-sets": [
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/layout/templates/",
-          "text": "Hugo's template"
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/../../abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
         }
       ],
-      "/layout/variables": [
+      "/../../algorithms/searching/binary-search": [
         {
-          "source": "/posts/goisforlovers",
-          "target": "/layout/variables",
-          "text": "variables"
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/binary-search",
+          "text": "binary-search.md"
+        }
+      ],
+      "/../../algorithms/searching/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/breadth-first-search-bfs",
+          "text": "breadth-first-search-bfs.md"
+        }
+      ],
+      "/../../algorithms/searching/depth-first-search-dfs": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../../algorithms/searching/depth-first-search-dfs",
+          "text": "depth-first-search-dfs.md"
+        }
+      ],
+      "/../../algorithms/shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "finding shortest paths using Dijkstra's Algorithm"
+        }
+      ],
+      "/../../asymptotics/amortization": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../asymptotics/amortization",
+          "text": "Amortization"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/sets",
+          "target": "/../../asymptotics/amortization",
+          "text": "resized"
+        }
+      ],
+      "/../../oop/generics": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../oop/generics",
+          "text": "Generic Types"
+        }
+      ],
+      "/../../oop/objects": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/../../oop/objects",
+          "text": "Java Objects"
+        }
+      ],
+      "/../abstract-data-types/collections/": [
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/../abstract-data-types/collections/",
+          "text": "Collections"
+        },
+        {
+          "source": "/cs61b/oop/objects",
+          "target": "/../abstract-data-types/collections/",
+          "text": "collections"
+        }
+      ],
+      "/../algorithms/minimum-spanning-trees/": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/",
+          "text": "Minimum Spanning Trees"
+        }
+      ],
+      "/../algorithms/minimum-spanning-trees/kruskals-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
+          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        }
+      ],
+      "/../algorithms/minimum-spanning-trees/prims-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
+          "text": "Prim's Algorithm"
+        }
+      ],
+      "/../algorithms/searching/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/searching/breadth-first-search-bfs",
+          "text": "Breadth First Search (BFS)"
+        }
+      ],
+      "/../algorithms/searching/depth-first-search-dfs": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/searching/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        }
+      ],
+      "/../algorithms/shortest-paths/": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/../algorithms/shortest-paths/a-search": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/a-search",
+          "text": "A* Search"
+        }
+      ],
+      "/../algorithms/shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/../asymptotics/amortization": [
+        {
+          "source": "/cs61b/abstract-data-types/hashing",
+          "target": "/../asymptotics/amortization",
+          "text": "Amortization"
+        }
+      ],
+      "/../collections/sets": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/../collections/sets",
+          "text": "Sets"
+        }
+      ],
+      "/../graphs": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../graphs",
+          "text": "Graphs"
+        }
+      ],
+      "/../hashing": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/../hashing",
+          "text": "Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/../hashing",
+          "text": "Hashing and Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/../hashing",
+          "text": "Hashing and Hash Tables"
+        }
+      ],
+      "/../misc-topics/modular-arithmetic": [
+        {
+          "source": "/cs61b/oop/objects",
+          "target": "/../misc-topics/modular-arithmetic",
+          "text": "Modular Arithmetic and Bit Manipulation"
+        }
+      ],
+      "/../oop/objects": [
+        {
+          "source": "/cs61b/misc-topics/modular-arithmetic",
+          "target": "/../oop/objects",
+          "text": "Java Objects"
+        }
+      ],
+      "/../shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/../shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's"
+        },
+        {
+          "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+          "target": "/../shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/./": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
+          "target": "/./",
+          "text": "Binary Trees"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/./",
+          "text": "Collections"
+        },
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/./",
+          "text": "Minimum Spanning Trees"
+        },
+        {
+          "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/./",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/./README": [
+        {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/./README",
+          "text": "Minimum Spanning Trees"
+        }
+      ],
+      "/CS61B-Index": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/CS61B-Index",
+          "text": "Welcome"
+        }
+      ],
+      "/abstract-data-types/binary-trees/README": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/README",
+          "text": "Binary Trees"
+        }
+      ],
+      "/abstract-data-types/binary-trees/balanced-search-structures": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/balanced-search-structures",
+          "text": "Balanced BSTs"
+        }
+      ],
+      "/abstract-data-types/binary-trees/heaps": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/heaps",
+          "text": "Heaps"
+        }
+      ],
+      "/abstract-data-types/binary-trees/tries": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/binary-trees/tries",
+          "text": "Tries"
+        }
+      ],
+      "/abstract-data-types/collections/README": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/README",
+          "text": "Collections"
+        }
+      ],
+      "/abstract-data-types/collections/arrays": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/arrays",
+          "text": "Arrays"
+        }
+      ],
+      "/abstract-data-types/collections/linked-lists": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        }
+      ],
+      "/abstract-data-types/collections/sets": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        }
+      ],
+      "/abstract-data-types/collections/stacks-and-queues": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        }
+      ],
+      "/abstract-data-types/comparables-and-comparators": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/comparables-and-comparators",
+          "text": "Comparables and Comparators"
+        }
+      ],
+      "/abstract-data-types/graphs": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/graphs",
+          "text": "Graphs"
+        }
+      ],
+      "/abstract-data-types/hashing": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/hashing",
+          "text": "Hashing and Hash Tables"
+        }
+      ],
+      "/abstract-data-types/union-find-disjoint-sets": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        }
+      ],
+      "/access-control": [
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/access-control",
+          "text": "access control"
+        },
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/access-control",
+          "text": "Access Control"
+        }
+      ],
+      "/algorithms/minimax": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimax",
+          "text": "Minimax Algorithm"
+        }
+      ],
+      "/algorithms/minimum-spanning-trees/README": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/README",
+          "text": "Minimum Spanning Trees"
+        }
+      ],
+      "/algorithms/minimum-spanning-trees/kruskals-algorithm": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        }
+      ],
+      "/algorithms/minimum-spanning-trees/prims-algorithm": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
+          "text": "Prim's Algorithm"
+        }
+      ],
+      "/algorithms/searching/": [
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/searching/",
+          "text": "Searching"
+        }
+      ],
+      "/algorithms/searching/README": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/README",
+          "text": "Searching"
+        }
+      ],
+      "/algorithms/searching/binary-search": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        }
+      ],
+      "/algorithms/searching/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/breadth-first-search-bfs",
+          "text": "Breadth First Search (BFS)"
+        }
+      ],
+      "/algorithms/searching/depth-first-search-dfs": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/searching/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        }
+      ],
+      "/algorithms/shortest-paths/": [
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/algorithms/shortest-paths/README": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/README",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/algorithms/shortest-paths/a-search": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/a-search",
+          "text": "A* Search"
+        }
+      ],
+      "/algorithms/shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/arrays": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/arrays",
+          "text": "ArrayLists"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/linked-lists",
+          "target": "/arrays",
+          "text": "Arrays"
+        }
+      ],
+      "/asymptotics": [
+        {
+          "source": "/cs61b/asymptotics/amortization",
+          "target": "/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        },
+        {
+          "source": "/cs61b/asymptotics/asymptotics-practice",
+          "target": "/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        },
+        {
+          "source": "/cs61b/asymptotics/asymptotics",
+          "target": "/asymptotics",
+          "text": "Simplify"
+        }
+      ],
+      "/asymptotics-practice": [
+        {
+          "source": "/cs61b/asymptotics/asymptotics",
+          "target": "/asymptotics-practice",
+          "text": "try some problems!"
+        }
+      ],
+      "/asymptotics/amortization": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/amortization",
+          "text": "Amortization"
+        }
+      ],
+      "/asymptotics/asymptotics": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/asymptotics",
+          "text": "Asymptotic Analysis Basics"
+        }
+      ],
+      "/asymptotics/asymptotics-practice": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        }
+      ],
+      "/balanced-search-structures": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/balanced-search-structures",
+          "text": "Balanced BSTs"
+        }
+      ],
+      "/binary-search": [
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/binary-search",
+          "text": "binary-search.md"
+        }
+      ],
+      "/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/breadth-first-search-bfs",
+          "text": "breadth-first-search-bfs.md"
+        }
+      ],
+      "/depth-first-search-dfs": [
+        {
+          "source": "/cs61b/algorithms/searching/README",
+          "target": "/depth-first-search-dfs",
+          "text": "depth-first-search-dfs.md"
+        },
+        {
+          "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+          "target": "/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        }
+      ],
+      "/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/algorithms/shortest-paths/a-search",
+          "target": "/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/dynamic-method-selection": [
+        {
+          "source": "/cs61b/oop/generics",
+          "target": "/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        }
+      ],
+      "/generics": [
+        {
+          "source": "/cs61b/oop/inheritance",
+          "target": "/generics",
+          "text": "Generic Types"
+        }
+      ],
+      "/inheritance": [
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/inheritance",
+          "text": "inheritance"
+        },
+        {
+          "source": "/cs61b/oop/dynamic-method-selection",
+          "target": "/inheritance",
+          "text": "Interfaces"
+        },
+        {
+          "source": "/cs61b/oop/generics",
+          "target": "/inheritance",
+          "text": "inheritance rules"
+        }
+      ],
+      "/linked-lists": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/linked-lists",
+          "text": "Linked Lists"
+        }
+      ],
+      "/misc-topics/exceptions": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
+        }
+      ],
+      "/misc-topics/modular-arithmetic": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/modular-arithmetic",
+          "text": "Modular Arithmetic and Bit Manipulation"
+        }
+      ],
+      "/misc-topics/more-resources": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/misc-topics/more-resources",
+          "text": "More Resources"
         }
       ],
       "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
@@ -289,12 +1521,12 @@
           "text": "CJK + Latex Support"
         },
         {
-          "source": "/notes/config",
+          "source": "/configuration/config",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
           "text": "CJK + Latex Support (测试)"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
           "text": "CJK + Latex Support (测试)"
         }
@@ -308,48 +1540,48 @@
       ],
       "/notes/config": [
         {
-          "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "target": "/notes/config",
-          "text": "config"
-        },
-        {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/config",
           "text": "Customizing Quartz"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/config",
           "text": "customization guide"
+        },
+        {
+          "source": "/features/languages",
+          "target": "/notes/config",
+          "text": "config"
         }
       ],
       "/notes/custom-Domain": [
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/custom-Domain",
           "text": "Learn how to set it up with Quartz"
         }
       ],
       "/notes/docker": [
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/docker",
           "text": "Docker"
         }
       ],
       "/notes/editing": [
         {
-          "source": "/notes/setup",
+          "source": "/configuration/setup",
           "target": "/notes/editing",
           "text": "Editing Notes in Quartz"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/editing",
           "text": "the 'how to edit' guide"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/editing",
           "text": "local editing"
         }
@@ -370,51 +1602,51 @@
       ],
       "/notes/hosting": [
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/hosting",
           "text": "Hosting Quartz online!"
         },
         {
-          "source": "/notes/preview-changes",
+          "source": "/configuration/preview-changes",
           "target": "/notes/hosting",
           "text": "Hosting Quartz online!"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "hosting"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "hosting"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/hosting",
           "text": "the hosting guide"
         }
       ],
       "/notes/ignore-notes": [
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/ignore-notes",
           "text": "Excluding pages from being published"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/ignore-notes",
           "text": "excluding pages from being published"
         }
       ],
       "/notes/obsidian": [
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/obsidian",
           "text": "How to setup your Obsidian Vault to work with Quartz"
         },
         {
-          "source": "/notes/troubleshooting",
+          "source": "/configuration/troubleshooting",
           "target": "/notes/obsidian",
           "text": "Obsidian"
         }
@@ -428,17 +1660,17 @@
       ],
       "/notes/preview-changes": [
         {
-          "source": "/notes/docker",
+          "source": "/configuration/docker",
           "target": "/notes/preview-changes",
           "text": "install Quartz's dependencies manually"
         },
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/preview-changes",
           "text": "Preview Quartz Changes"
         },
         {
-          "source": "/notes/obsidian",
+          "source": "/configuration/obsidian",
           "target": "/notes/preview-changes",
           "text": "Preview Quartz Changes"
         }
@@ -457,7 +1689,7 @@
           "text": "Setup your own digital garden using Quartz"
         },
         {
-          "source": "/notes/obsidian",
+          "source": "/configuration/obsidian",
           "target": "/notes/setup",
           "text": "setup"
         }
@@ -476,22 +1708,22 @@
           "text": "Troubleshooting and FAQ"
         },
         {
-          "source": "/notes/config",
+          "source": "/configuration/config",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         },
         {
-          "source": "/notes/editing",
+          "source": "/configuration/editing",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         },
         {
-          "source": "/notes/hosting",
+          "source": "/configuration/hosting",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         },
         {
-          "source": "/notes/setup",
+          "source": "/configuration/setup",
           "target": "/notes/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
         }
@@ -503,11 +1735,92 @@
           "text": "update"
         }
       ],
-      "/overview/configuration/": [
+      "/objects": [
         {
-          "source": "/posts/migrate-from-jekyll",
-          "target": "/overview/configuration/",
-          "text": "Hugo configuration documentation"
+          "source": "/cs61b/oop/inheritance",
+          "target": "/objects",
+          "text": "References, Objects, and Types in Java"
+        }
+      ],
+      "/oop/access-control": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/access-control",
+          "text": "Access Control"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/oop/access-control",
+          "text": "Access Control"
+        }
+      ],
+      "/oop/dynamic-method-selection": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        }
+      ],
+      "/oop/generics": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        }
+      ],
+      "/oop/inheritance": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/inheritance",
+          "text": "Inheritance"
+        }
+      ],
+      "/oop/objects": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/oop/objects",
+          "text": "Java Objects"
+        }
+      ],
+      "/sets": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/sets",
+          "text": "Sets"
+        }
+      ],
+      "/sorting/sorting-basics": [
+        {
+          "source": "/cs61b/SUMMARY",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        },
+        {
+          "source": "/cs61b/",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        }
+      ],
+      "/stacks-and-queues": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/README",
+          "target": "/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "target": "/stacks-and-queues",
+          "text": "Priority Queues"
         }
       ],
       "/tags/setup": [
@@ -515,6 +1828,13 @@
           "source": "/",
           "target": "/tags/setup",
           "text": "setup-related notes"
+        }
+      ],
+      "/tries": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "target": "/tries",
+          "text": "Tries"
         }
       ]
     }
@@ -576,169 +1896,724 @@
       "text": "notes/foo/footest"
     },
     {
-      "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-      "target": "/notes/config",
-      "text": "config"
-    },
-    {
-      "source": "/notes/config",
+      "source": "/configuration/config",
       "target": "/notes/troubleshooting",
       "text": "FAQ and Troubleshooting guide"
     },
     {
-      "source": "/notes/config",
+      "source": "/configuration/config",
       "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
       "text": "CJK + Latex Support (测试)"
     },
     {
-      "source": "/notes/docker",
+      "source": "/configuration/docker",
       "target": "/notes/preview-changes",
       "text": "install Quartz's dependencies manually"
     },
     {
-      "source": "/notes/editing",
+      "source": "/configuration/editing",
       "target": "/notes/obsidian",
       "text": "How to setup your Obsidian Vault to work with Quartz"
     },
     {
-      "source": "/notes/editing",
+      "source": "/configuration/editing",
       "target": "/notes/preview-changes",
       "text": "Preview Quartz Changes"
     },
     {
-      "source": "/notes/editing",
+      "source": "/configuration/editing",
       "target": "/notes/hosting",
       "text": "Hosting Quartz online!"
     },
     {
-      "source": "/notes/editing",
+      "source": "/configuration/editing",
       "target": "/notes/troubleshooting",
       "text": "FAQ and Troubleshooting guide"
     },
     {
-      "source": "/notes/hosting",
+      "source": "/configuration/hosting",
       "target": "/notes/custom-Domain",
       "text": "Learn how to set it up with Quartz"
     },
     {
-      "source": "/notes/hosting",
+      "source": "/configuration/hosting",
       "target": "/notes/ignore-notes",
       "text": "Excluding pages from being published"
     },
     {
-      "source": "/notes/hosting",
+      "source": "/configuration/hosting",
       "target": "/notes/docker",
       "text": "Docker"
     },
     {
-      "source": "/notes/hosting",
+      "source": "/configuration/hosting",
       "target": "/notes/config",
       "text": "Customizing Quartz"
     },
     {
-      "source": "/notes/hosting",
+      "source": "/configuration/hosting",
       "target": "/notes/troubleshooting",
       "text": "FAQ and Troubleshooting guide"
     },
     {
-      "source": "/notes/obsidian",
+      "source": "/configuration/obsidian",
       "target": "/notes/setup",
       "text": "setup"
     },
     {
-      "source": "/notes/obsidian",
+      "source": "/configuration/obsidian",
       "target": "/notes/preview-changes",
       "text": "Preview Quartz Changes"
     },
     {
-      "source": "/notes/preview-changes",
+      "source": "/configuration/preview-changes",
       "target": "/notes/hosting",
       "text": "Hosting Quartz online!"
     },
     {
-      "source": "/notes/setup",
+      "source": "/configuration/setup",
       "target": "/notes/editing",
       "text": "Editing Notes in Quartz"
     },
     {
-      "source": "/notes/setup",
+      "source": "/configuration/setup",
       "target": "/notes/troubleshooting",
       "text": "FAQ and Troubleshooting guide"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
       "text": "CJK + Latex Support (测试)"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/hosting",
       "text": "hosting"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/ignore-notes",
       "text": "excluding pages from being published"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/hosting",
       "text": "hosting"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/obsidian",
       "text": "Obsidian"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/editing",
       "text": "the 'how to edit' guide"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/hosting",
       "text": "the hosting guide"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/config",
       "text": "customization guide"
     },
     {
-      "source": "/notes/troubleshooting",
+      "source": "/configuration/troubleshooting",
       "target": "/notes/editing",
       "text": "local editing"
     },
     {
-      "source": "/posts/goisforlovers",
-      "target": "/layout/variables",
-      "text": "variables"
+      "source": "/cs61b/SUMMARY",
+      "target": "/CS61B-Index",
+      "text": "Welcome"
     },
     {
-      "source": "/posts/goisforlovers",
-      "target": "/layout/functions",
-      "text": "Hugo template\nfunctions"
+      "source": "/cs61b/SUMMARY",
+      "target": "/oop/inheritance",
+      "text": "Inheritance"
     },
     {
-      "source": "/posts/goisforlovers",
-      "target": "/content/front-matter",
-      "text": "front matter"
+      "source": "/cs61b/SUMMARY",
+      "target": "/oop/access-control",
+      "text": "Access Control"
     },
     {
-      "source": "/posts/migrate-from-jekyll",
-      "target": "/overview/configuration/",
-      "text": "Hugo configuration documentation"
+      "source": "/cs61b/SUMMARY",
+      "target": "/oop/dynamic-method-selection",
+      "text": "Dynamic Method Selection"
     },
     {
-      "source": "/posts/migrate-from-jekyll",
-      "target": "/layout/templates/",
-      "text": "Hugo's template"
+      "source": "/cs61b/SUMMARY",
+      "target": "/oop/objects",
+      "text": "Java Objects"
     },
     {
-      "source": "/posts/migrate-from-jekyll",
-      "target": "/doc/shortcodes/",
-      "text": "shortcodes"
+      "source": "/cs61b/SUMMARY",
+      "target": "/oop/generics",
+      "text": "Generic Types"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/asymptotics/asymptotics",
+      "text": "Asymptotic Analysis Basics"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/asymptotics/amortization",
+      "text": "Amortization"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/asymptotics/asymptotics-practice",
+      "text": "Asymptotics Practice"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/collections/README",
+      "text": "Collections"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/collections/arrays",
+      "text": "Arrays"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/collections/linked-lists",
+      "text": "Linked Lists"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/collections/sets",
+      "text": "Sets"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/collections/stacks-and-queues",
+      "text": "Stacks and Queues"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/binary-trees/README",
+      "text": "Binary Trees"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/binary-trees/heaps",
+      "text": "Heaps"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/binary-trees/balanced-search-structures",
+      "text": "Balanced BSTs"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/binary-trees/tries",
+      "text": "Tries"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/graphs",
+      "text": "Graphs"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/hashing",
+      "text": "Hashing and Hash Tables"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/union-find-disjoint-sets",
+      "text": "Union Find (Disjoint Sets)"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/abstract-data-types/comparables-and-comparators",
+      "text": "Comparables and Comparators"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/sorting/sorting-basics",
+      "text": "Sorting"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/minimax",
+      "text": "Minimax Algorithm"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/searching/README",
+      "text": "Searching"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/searching/binary-search",
+      "text": "Binary Search"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/searching/depth-first-search-dfs",
+      "text": "Depth First Search (DFS)"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/searching/breadth-first-search-bfs",
+      "text": "Breadth First Search (BFS)"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/shortest-paths/README",
+      "text": "Shortest Paths"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/shortest-paths/dijkstras-algorithm",
+      "text": "Dijkstra's Algorithm"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/shortest-paths/a-search",
+      "text": "A* Search"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/minimum-spanning-trees/README",
+      "text": "Minimum Spanning Trees"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
+      "text": "Prim's Algorithm"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "text": "Kruskal's Algorithm"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/misc-topics/modular-arithmetic",
+      "text": "Modular Arithmetic and Bit Manipulation"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/misc-topics/exceptions",
+      "text": "Exceptions"
+    },
+    {
+      "source": "/cs61b/SUMMARY",
+      "target": "/misc-topics/more-resources",
+      "text": "More Resources"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/oop/access-control",
+      "text": "Access Control"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/oop/dynamic-method-selection",
+      "text": "Dynamic Method Selection"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/oop/generics",
+      "text": "Generic Types"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/asymptotics/asymptotics-practice",
+      "text": "Asymptotics Practice"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/abstract-data-types/union-find-disjoint-sets",
+      "text": "Union Find (Disjoint Sets)"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/abstract-data-types/collections/stacks-and-queues",
+      "text": "Stacks and Queues"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/abstract-data-types/collections/linked-lists",
+      "text": "Linked Lists"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/abstract-data-types/collections/sets",
+      "text": "Sets"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/sorting/sorting-basics",
+      "text": "Sorting"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/algorithms/searching/",
+      "text": "Searching"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/algorithms/searching/binary-search",
+      "text": "Binary Search"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/algorithms/shortest-paths/",
+      "text": "Shortest Paths"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/misc-topics/exceptions",
+      "text": "Exceptions"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/../../algorithms/searching/binary-search",
+      "text": "binary-search.md"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/balanced-search-structures",
+      "text": "Balanced BSTs"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/../graphs",
+      "text": "Graphs"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/tries",
+      "text": "Tries"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/../hashing",
+      "text": "Hash Tables"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/../../algorithms/searching/depth-first-search-dfs",
+      "text": "depth-first-search-dfs.md"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "target": "/../../algorithms/searching/breadth-first-search-bfs",
+      "text": "breadth-first-search-bfs.md"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
+      "target": "/./",
+      "text": "Binary Trees"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/tries",
+      "target": "/../hashing",
+      "text": "Hashing and Hash Tables"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/binary-trees/tries",
+      "target": "/../collections/sets",
+      "text": "Sets"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/README",
+      "target": "/arrays",
+      "text": "ArrayLists"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/README",
+      "target": "/linked-lists",
+      "text": "Linked Lists"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/README",
+      "target": "/sets",
+      "text": "Sets"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/README",
+      "target": "/../hashing",
+      "text": "Hashing and Hash Tables"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/README",
+      "target": "/stacks-and-queues",
+      "text": "Stacks and Queues"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/arrays",
+      "target": "/../../oop/objects",
+      "text": "Java Objects"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/arrays",
+      "target": "/../../asymptotics/amortization",
+      "text": "Amortization"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/arrays",
+      "target": "/../../oop/generics",
+      "text": "Generic Types"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/arrays",
+      "target": "/./",
+      "text": "Collections"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/linked-lists",
+      "target": "/arrays",
+      "text": "Arrays"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/sets",
+      "target": "/../../asymptotics/amortization",
+      "text": "resized"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+      "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
+      "text": "finding shortest paths using Dijkstra's Algorithm"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+      "target": "/stacks-and-queues",
+      "text": "Priority Queues"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/searching/depth-first-search-dfs",
+      "text": "Depth First Search (DFS)"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/searching/breadth-first-search-bfs",
+      "text": "Breadth First Search (BFS)"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/minimum-spanning-trees/",
+      "text": "Minimum Spanning Trees"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/shortest-paths/",
+      "text": "Shortest Paths"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
+      "text": "Dijkstra's Algorithm"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/shortest-paths/a-search",
+      "text": "A* Search"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
+      "text": "Prim's Algorithm"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/graphs",
+      "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "text": "Kruskal's Algorithm"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/hashing",
+      "target": "/../asymptotics/amortization",
+      "text": "Amortization"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
+      "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "text": "Kruskal's Algorithm"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/./",
+      "text": "Minimum Spanning Trees"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/../../abstract-data-types/union-find-disjoint-sets",
+      "text": "Union Find (Disjoint Sets)"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/../../abstract-data-types/union-find-disjoint-sets",
+      "text": "Union Find (Disjoint Sets)"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/../../abstract-data-types/collections/stacks-and-queues",
+      "text": "PriorityQueue"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+      "target": "/./README",
+      "text": "Minimum Spanning Trees"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+      "target": "/../../abstract-data-types/collections/stacks-and-queues",
+      "text": "PriorityQueue"
+    },
+    {
+      "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+      "target": "/../shortest-paths/dijkstras-algorithm",
+      "text": "Dijkstra's"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/README",
+      "target": "/binary-search",
+      "text": "binary-search.md"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/README",
+      "target": "/depth-first-search-dfs",
+      "text": "depth-first-search-dfs.md"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/README",
+      "target": "/breadth-first-search-bfs",
+      "text": "breadth-first-search-bfs.md"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/binary-search",
+      "target": "/../../abstract-data-types/binary-trees/",
+      "text": "binary trees"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+      "target": "/depth-first-search-dfs",
+      "text": "Depth First Search (DFS)"
+    },
+    {
+      "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+      "target": "/../shortest-paths/dijkstras-algorithm",
+      "text": "Dijkstra's Algorithm"
+    },
+    {
+      "source": "/cs61b/algorithms/shortest-paths/a-search",
+      "target": "/dijkstras-algorithm",
+      "text": "Dijkstra's Algorithm"
+    },
+    {
+      "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+      "target": "/../../abstract-data-types/graphs",
+      "text": "Graphs"
+    },
+    {
+      "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+      "target": "/../../abstract-data-types/collections/stacks-and-queues",
+      "text": "Stacks and Queues"
+    },
+    {
+      "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+      "target": "/./",
+      "text": "Shortest Paths"
+    },
+    {
+      "source": "/cs61b/asymptotics/amortization",
+      "target": "/asymptotics",
+      "text": "Asymptotic Analysis Basics"
+    },
+    {
+      "source": "/cs61b/asymptotics/asymptotics-practice",
+      "target": "/asymptotics",
+      "text": "Asymptotic Analysis Basics"
+    },
+    {
+      "source": "/cs61b/asymptotics/asymptotics",
+      "target": "/asymptotics-practice",
+      "text": "try some problems!"
+    },
+    {
+      "source": "/cs61b/asymptotics/asymptotics",
+      "target": "/asymptotics",
+      "text": "Simplify"
+    },
+    {
+      "source": "/cs61b/misc-topics/modular-arithmetic",
+      "target": "/../oop/objects",
+      "text": "Java Objects"
+    },
+    {
+      "source": "/cs61b/oop/dynamic-method-selection",
+      "target": "/inheritance",
+      "text": "inheritance"
+    },
+    {
+      "source": "/cs61b/oop/dynamic-method-selection",
+      "target": "/access-control",
+      "text": "access control"
+    },
+    {
+      "source": "/cs61b/oop/dynamic-method-selection",
+      "target": "/inheritance",
+      "text": "Interfaces"
+    },
+    {
+      "source": "/cs61b/oop/dynamic-method-selection",
+      "target": "/../abstract-data-types/collections/",
+      "text": "Collections"
+    },
+    {
+      "source": "/cs61b/oop/generics",
+      "target": "/dynamic-method-selection",
+      "text": "Dynamic Method Selection"
+    },
+    {
+      "source": "/cs61b/oop/generics",
+      "target": "/inheritance",
+      "text": "inheritance rules"
+    },
+    {
+      "source": "/cs61b/oop/inheritance",
+      "target": "/access-control",
+      "text": "Access Control"
+    },
+    {
+      "source": "/cs61b/oop/inheritance",
+      "target": "/objects",
+      "text": "References, Objects, and Types in Java"
+    },
+    {
+      "source": "/cs61b/oop/inheritance",
+      "target": "/generics",
+      "text": "Generic Types"
+    },
+    {
+      "source": "/cs61b/oop/inheritance",
+      "target": "/dynamic-method-selection",
+      "text": "Dynamic Method Selection"
+    },
+    {
+      "source": "/cs61b/oop/objects",
+      "target": "/../misc-topics/modular-arithmetic",
+      "text": "Modular Arithmetic and Bit Manipulation"
+    },
+    {
+      "source": "/cs61b/oop/objects",
+      "target": "/../abstract-data-types/collections/",
+      "text": "collections"
+    },
+    {
+      "source": "/features/languages",
+      "target": "/notes/config",
+      "text": "config"
     }
   ]
 }
