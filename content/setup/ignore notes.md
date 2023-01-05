@@ -2,12 +2,11 @@
 title: "Ignoring Notes"
 ---
 
-### Quartz Ignore
-Edit `ignoreFiles` in `config.toml` to include paths you'd like to exclude from being rendered.
+Edit `ignoreFiles` in `config.yaml` to include paths you'd like to exclude from being rendered.
 
 ```toml
 ...
-ignoreFiles = [  
+ignoreFiles: [  
     "/content/templates/*",  
     "/content/private/*", 
     "<your path here>"
@@ -28,4 +27,4 @@ draft: true
 More details in [Hugo's documentation](https://gohugo.io/getting-started/configuration/#ignore-content-and-data-files-when-rendering).
 
 ### Global Ignore
-However, just adding to the `ignoreFiles` will only prevent the page from being access through Quartz. If you want to prevent the file from being pushed to GitHub (for example if you have a public repository), you need to also add the path to the `.gitignore` file at the root of the repository.
+However, just adding to the `ignoreFiles` will only prevent the page from being access through Amethyst. If you want to prevent the file from being pushed to GitHub (for example if you have a public repository), you need to also add the path to the `.gitignore` file at the root of the repository.

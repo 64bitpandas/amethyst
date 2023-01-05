@@ -58,152 +58,6 @@
           "text": "notes/foo/footest"
         }
       ],
-      "/configuration/config": [
-        {
-          "source": "/configuration/config",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/configuration/config",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support (测试)"
-        }
-      ],
-      "/configuration/docker": [
-        {
-          "source": "/configuration/docker",
-          "target": "/notes/preview-changes",
-          "text": "install Quartz's dependencies manually"
-        }
-      ],
-      "/configuration/editing": [
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Quartz"
-        },
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/preview-changes",
-          "text": "Preview Quartz Changes"
-        },
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
-        },
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/configuration/hosting": [
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/custom-Domain",
-          "text": "Learn how to set it up with Quartz"
-        },
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/docker",
-          "text": "Docker"
-        },
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/config",
-          "text": "Customizing Quartz"
-        },
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/configuration/obsidian": [
-        {
-          "source": "/configuration/obsidian",
-          "target": "/notes/setup",
-          "text": "setup"
-        },
-        {
-          "source": "/configuration/obsidian",
-          "target": "/notes/preview-changes",
-          "text": "Preview Quartz Changes"
-        }
-      ],
-      "/configuration/preview-changes": [
-        {
-          "source": "/configuration/preview-changes",
-          "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
-        }
-      ],
-      "/configuration/setup": [
-        {
-          "source": "/configuration/setup",
-          "target": "/notes/editing",
-          "text": "Editing Notes in Quartz"
-        },
-        {
-          "source": "/configuration/setup",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/configuration/troubleshooting": [
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support (测试)"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/ignore-notes",
-          "text": "excluding pages from being published"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/obsidian",
-          "text": "Obsidian"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "the hosting guide"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/config",
-          "text": "customization guide"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/editing",
-          "text": "local editing"
-        }
-      ],
       "/cs61b/": [
         {
           "source": "/cs61b/",
@@ -848,8 +702,142 @@
       "/features/languages": [
         {
           "source": "/features/languages",
-          "target": "/notes/config",
+          "target": "/setup/config",
           "text": "config"
+        }
+      ],
+      "/setup/config": [
+        {
+          "source": "/setup/config",
+          "target": "/features/language",
+          "text": "Chinese, Japanese, and Korean support"
+        },
+        {
+          "source": "/setup/config",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        }
+      ],
+      "/setup/editing": [
+        {
+          "source": "/setup/editing",
+          "target": "/setup/obsidian",
+          "text": "How to setup your Obsidian Vault to work with Amethyst"
+        },
+        {
+          "source": "/setup/editing",
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
+        },
+        {
+          "source": "/setup/editing",
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
+        },
+        {
+          "source": "/setup/editing",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        }
+      ],
+      "/setup/hosting": [
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/custom-Domain",
+          "text": "Learn how to set it up with Amethyst"
+        },
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/ignore-notes",
+          "text": "Excluding pages from being published"
+        },
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/config",
+          "text": "Customizing Amethyst"
+        },
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        }
+      ],
+      "/setup/obsidian": [
+        {
+          "source": "/setup/obsidian",
+          "target": "/setup/setup",
+          "text": "setup"
+        },
+        {
+          "source": "/setup/obsidian",
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
+        }
+      ],
+      "/setup/preview-changes": [
+        {
+          "source": "/setup/preview-changes",
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
+        }
+      ],
+      "/setup/setup": [
+        {
+          "source": "/setup/setup",
+          "target": "/setup/editing",
+          "text": "Editing Notes in Amethyst"
+        },
+        {
+          "source": "/setup/setup",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        }
+      ],
+      "/setup/troubleshooting": [
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/features/latex",
+          "text": "LaTeX"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "hosting"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/ignore-notes",
+          "text": "excluding pages from being published"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "hosting"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/editing",
+          "text": "the 'how to edit' guide"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "the hosting guide"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/config",
+          "text": "customization guide"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/editing",
+          "text": "local editing"
         }
       ]
     },
@@ -1457,6 +1445,20 @@
           "text": "Dynamic Method Selection"
         }
       ],
+      "/features/language": [
+        {
+          "source": "/setup/config",
+          "target": "/features/language",
+          "text": "Chinese, Japanese, and Korean support"
+        }
+      ],
+      "/features/latex": [
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/features/latex",
+          "text": "LaTeX"
+        }
+      ],
       "/generics": [
         {
           "source": "/cs61b/oop/inheritance",
@@ -1519,16 +1521,6 @@
           "source": "/",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
           "text": "CJK + Latex Support"
-        },
-        {
-          "source": "/configuration/config",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support (测试)"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support (测试)"
         }
       ],
       "/notes/callouts": [
@@ -1536,54 +1528,6 @@
           "source": "/",
           "target": "/notes/callouts",
           "text": "Admonition-style callouts"
-        }
-      ],
-      "/notes/config": [
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/config",
-          "text": "Customizing Quartz"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/config",
-          "text": "customization guide"
-        },
-        {
-          "source": "/features/languages",
-          "target": "/notes/config",
-          "text": "config"
-        }
-      ],
-      "/notes/custom-Domain": [
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/custom-Domain",
-          "text": "Learn how to set it up with Quartz"
-        }
-      ],
-      "/notes/docker": [
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/docker",
-          "text": "Docker"
-        }
-      ],
-      "/notes/editing": [
-        {
-          "source": "/configuration/setup",
-          "target": "/notes/editing",
-          "text": "Editing Notes in Quartz"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/editing",
-          "text": "local editing"
         }
       ],
       "/notes/foo": [
@@ -1600,79 +1544,11 @@
           "text": "notes/foo/footest"
         }
       ],
-      "/notes/hosting": [
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
-        },
-        {
-          "source": "/configuration/preview-changes",
-          "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/hosting",
-          "text": "the hosting guide"
-        }
-      ],
-      "/notes/ignore-notes": [
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/ignore-notes",
-          "text": "excluding pages from being published"
-        }
-      ],
-      "/notes/obsidian": [
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Quartz"
-        },
-        {
-          "source": "/configuration/troubleshooting",
-          "target": "/notes/obsidian",
-          "text": "Obsidian"
-        }
-      ],
       "/notes/philosophy": [
         {
           "source": "/",
           "target": "/notes/philosophy",
           "text": "why I made Quartz"
-        }
-      ],
-      "/notes/preview-changes": [
-        {
-          "source": "/configuration/docker",
-          "target": "/notes/preview-changes",
-          "text": "install Quartz's dependencies manually"
-        },
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/preview-changes",
-          "text": "Preview Quartz Changes"
-        },
-        {
-          "source": "/configuration/obsidian",
-          "target": "/notes/preview-changes",
-          "text": "Preview Quartz Changes"
         }
       ],
       "/notes/search": [
@@ -1687,11 +1563,6 @@
           "source": "/",
           "target": "/notes/setup",
           "text": "Setup your own digital garden using Quartz"
-        },
-        {
-          "source": "/configuration/obsidian",
-          "target": "/notes/setup",
-          "text": "setup"
         }
       ],
       "/notes/showcase": [
@@ -1706,26 +1577,6 @@
           "source": "/",
           "target": "/notes/troubleshooting",
           "text": "Troubleshooting and FAQ"
-        },
-        {
-          "source": "/configuration/config",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/configuration/editing",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/configuration/hosting",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/configuration/setup",
-          "target": "/notes/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
         }
       ],
       "/notes/updating": [
@@ -1797,6 +1648,139 @@
           "source": "/cs61b/abstract-data-types/collections/README",
           "target": "/sets",
           "text": "Sets"
+        }
+      ],
+      "/setup/config": [
+        {
+          "source": "/features/languages",
+          "target": "/setup/config",
+          "text": "config"
+        },
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/config",
+          "text": "Customizing Amethyst"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/config",
+          "text": "customization guide"
+        }
+      ],
+      "/setup/custom-Domain": [
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/custom-Domain",
+          "text": "Learn how to set it up with Amethyst"
+        }
+      ],
+      "/setup/editing": [
+        {
+          "source": "/setup/setup",
+          "target": "/setup/editing",
+          "text": "Editing Notes in Amethyst"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/editing",
+          "text": "the 'how to edit' guide"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/editing",
+          "text": "local editing"
+        }
+      ],
+      "/setup/hosting": [
+        {
+          "source": "/setup/editing",
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
+        },
+        {
+          "source": "/setup/preview-changes",
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "hosting"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "hosting"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/hosting",
+          "text": "the hosting guide"
+        }
+      ],
+      "/setup/ignore-notes": [
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/ignore-notes",
+          "text": "Excluding pages from being published"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/ignore-notes",
+          "text": "excluding pages from being published"
+        }
+      ],
+      "/setup/obsidian": [
+        {
+          "source": "/setup/editing",
+          "target": "/setup/obsidian",
+          "text": "How to setup your Obsidian Vault to work with Amethyst"
+        },
+        {
+          "source": "/setup/troubleshooting",
+          "target": "/setup/obsidian",
+          "text": "Obsidian"
+        }
+      ],
+      "/setup/preview-changes": [
+        {
+          "source": "/setup/editing",
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
+        },
+        {
+          "source": "/setup/obsidian",
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
+        }
+      ],
+      "/setup/setup": [
+        {
+          "source": "/setup/obsidian",
+          "target": "/setup/setup",
+          "text": "setup"
+        }
+      ],
+      "/setup/troubleshooting": [
+        {
+          "source": "/setup/config",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        },
+        {
+          "source": "/setup/editing",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        },
+        {
+          "source": "/setup/hosting",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
+        },
+        {
+          "source": "/setup/setup",
+          "target": "/setup/troubleshooting",
+          "text": "FAQ and Troubleshooting guide"
         }
       ],
       "/sorting/sorting-basics": [
@@ -1894,136 +1878,6 @@
       "source": "/",
       "target": "/notes/foo/footest",
       "text": "notes/foo/footest"
-    },
-    {
-      "source": "/configuration/config",
-      "target": "/notes/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/configuration/config",
-      "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-      "text": "CJK + Latex Support (测试)"
-    },
-    {
-      "source": "/configuration/docker",
-      "target": "/notes/preview-changes",
-      "text": "install Quartz's dependencies manually"
-    },
-    {
-      "source": "/configuration/editing",
-      "target": "/notes/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Quartz"
-    },
-    {
-      "source": "/configuration/editing",
-      "target": "/notes/preview-changes",
-      "text": "Preview Quartz Changes"
-    },
-    {
-      "source": "/configuration/editing",
-      "target": "/notes/hosting",
-      "text": "Hosting Quartz online!"
-    },
-    {
-      "source": "/configuration/editing",
-      "target": "/notes/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/configuration/hosting",
-      "target": "/notes/custom-Domain",
-      "text": "Learn how to set it up with Quartz"
-    },
-    {
-      "source": "/configuration/hosting",
-      "target": "/notes/ignore-notes",
-      "text": "Excluding pages from being published"
-    },
-    {
-      "source": "/configuration/hosting",
-      "target": "/notes/docker",
-      "text": "Docker"
-    },
-    {
-      "source": "/configuration/hosting",
-      "target": "/notes/config",
-      "text": "Customizing Quartz"
-    },
-    {
-      "source": "/configuration/hosting",
-      "target": "/notes/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/configuration/obsidian",
-      "target": "/notes/setup",
-      "text": "setup"
-    },
-    {
-      "source": "/configuration/obsidian",
-      "target": "/notes/preview-changes",
-      "text": "Preview Quartz Changes"
-    },
-    {
-      "source": "/configuration/preview-changes",
-      "target": "/notes/hosting",
-      "text": "Hosting Quartz online!"
-    },
-    {
-      "source": "/configuration/setup",
-      "target": "/notes/editing",
-      "text": "Editing Notes in Quartz"
-    },
-    {
-      "source": "/configuration/setup",
-      "target": "/notes/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-      "text": "CJK + Latex Support (测试)"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/ignore-notes",
-      "text": "excluding pages from being published"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/obsidian",
-      "text": "Obsidian"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/editing",
-      "text": "the 'how to edit' guide"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/hosting",
-      "text": "the hosting guide"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/config",
-      "text": "customization guide"
-    },
-    {
-      "source": "/configuration/troubleshooting",
-      "target": "/notes/editing",
-      "text": "local editing"
     },
     {
       "source": "/cs61b/SUMMARY",
@@ -2612,8 +2466,128 @@
     },
     {
       "source": "/features/languages",
-      "target": "/notes/config",
+      "target": "/setup/config",
       "text": "config"
+    },
+    {
+      "source": "/setup/config",
+      "target": "/features/language",
+      "text": "Chinese, Japanese, and Korean support"
+    },
+    {
+      "source": "/setup/config",
+      "target": "/setup/troubleshooting",
+      "text": "FAQ and Troubleshooting guide"
+    },
+    {
+      "source": "/setup/editing",
+      "target": "/setup/obsidian",
+      "text": "How to setup your Obsidian Vault to work with Amethyst"
+    },
+    {
+      "source": "/setup/editing",
+      "target": "/setup/preview-changes",
+      "text": "Preview Changes"
+    },
+    {
+      "source": "/setup/editing",
+      "target": "/setup/hosting",
+      "text": "Hosting Amethyst online!"
+    },
+    {
+      "source": "/setup/editing",
+      "target": "/setup/troubleshooting",
+      "text": "FAQ and Troubleshooting guide"
+    },
+    {
+      "source": "/setup/hosting",
+      "target": "/setup/custom-Domain",
+      "text": "Learn how to set it up with Amethyst"
+    },
+    {
+      "source": "/setup/hosting",
+      "target": "/setup/ignore-notes",
+      "text": "Excluding pages from being published"
+    },
+    {
+      "source": "/setup/hosting",
+      "target": "/setup/config",
+      "text": "Customizing Amethyst"
+    },
+    {
+      "source": "/setup/hosting",
+      "target": "/setup/troubleshooting",
+      "text": "FAQ and Troubleshooting guide"
+    },
+    {
+      "source": "/setup/obsidian",
+      "target": "/setup/setup",
+      "text": "setup"
+    },
+    {
+      "source": "/setup/obsidian",
+      "target": "/setup/preview-changes",
+      "text": "Preview Changes"
+    },
+    {
+      "source": "/setup/preview-changes",
+      "target": "/setup/hosting",
+      "text": "Hosting Amethyst online!"
+    },
+    {
+      "source": "/setup/setup",
+      "target": "/setup/editing",
+      "text": "Editing Notes in Amethyst"
+    },
+    {
+      "source": "/setup/setup",
+      "target": "/setup/troubleshooting",
+      "text": "FAQ and Troubleshooting guide"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/features/latex",
+      "text": "LaTeX"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/hosting",
+      "text": "hosting"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/ignore-notes",
+      "text": "excluding pages from being published"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/hosting",
+      "text": "hosting"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/obsidian",
+      "text": "Obsidian"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/editing",
+      "text": "the 'how to edit' guide"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/hosting",
+      "text": "the hosting guide"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/config",
+      "text": "customization guide"
+    },
+    {
+      "source": "/setup/troubleshooting",
+      "target": "/setup/editing",
+      "text": "local editing"
     }
   ]
 }

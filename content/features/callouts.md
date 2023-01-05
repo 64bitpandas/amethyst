@@ -4,7 +4,7 @@ title: "Callouts"
 
 ## Callout support
 
-Quartz supports the same Admonition-callout syntax as Obsidian.
+Amethyst supports the same Admonition-callout syntax as Obsidian.
 
 This includes
 - 12 Distinct callout types (each with several aliases)

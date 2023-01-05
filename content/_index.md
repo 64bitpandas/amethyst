@@ -1,28 +1,33 @@
 ---
-title: 🪴 Quartz 3.
+title: 💜 Welcome to Amethyst!
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+## What is Amethyst?
+Amethyst is a free [Obsidian Publish](https://obsidian.md/publish) alternative that is derived from two existing projects, [Quartz](https://quartz.jzhao.xyz/) and [Hugo Book](https://github.com/alex-shpak/hugo-book).
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+The purpose of Amethyst is to provide a space to publish more structured notes created in Obsidian that may not fit in the [digital garden](https://joelhooks.com/digital-garden/) archetype that is well-supported by existing projects.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+Amethyst was primarily created as a theme for my [course notes](https://notes.bencuan.me).
 
 ## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+> 📚 Step 1: [Setup your own Amethyst instance](setup/setup.md)
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+> ✏️ Step 2: [Editing Notes in Amethyst](setup/editing.md)
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
+> 🔗 Step 3: [How to setup your Obsidian Vault to work with Amethyst](setup/obsidian.md)
+
+> 👀 Step 4: [Preview Changes](setup/preview%20changes.md)
+
+> 🌍 Step 5: [Hosting Amethyst online!](setup/hosting.md)
+
+> 🎨 Step 6:  [Customizing Amethyst](setup/config.md)
+
+Returning user? Here's how to [[setup/updating|update]] your existing Amethyst instance.
+
+Here's a list of all [setup-related notes](/tags/setup), which are also accessible via the sidebar menu under the "Getting Started" section.
 
 ### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
-[[notes/foo]] [[notes/foo/footest]]
+- 🚧 [Troubleshooting and FAQ](setup/troubleshooting.md)
+- 🐛 [Submit an Issue](https://github.com/64bitpandas/amethyst/issues)
+- 👀 [Contact me](https://bencuan.me/contact)

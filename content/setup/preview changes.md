@@ -5,7 +5,7 @@ tags:
 weight: -2
 ---
 
-If you'd like to preview what your Quartz site looks like before deploying it to the internet, the following
+If you'd like to preview what your site looks like before deploying it to the internet, the following
 instructions guide you through installing the proper dependencies to run it locally.
 
 
@@ -22,11 +22,11 @@ If you are running into an error saying that `command not found: hugo-obsidian`,
 Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated!
 
 ##  Installing Hugo
-Hugo is the static site generator that powers Quartz. [Install Hugo with "extended" Sass/SCSS version](https://gohugo.io/getting-started/installing/) first. Then,
+Hugo is the static site generator that powers Amethyst. [Install Hugo with "extended" Sass/SCSS version](https://gohugo.io/getting-started/installing/) first. Then,
 
 ```bash
-# Navigate to your local Quartz folder
-cd <location-of-your-local-quartz>
+# Navigate to your local Amethyst folder
+cd <location-of-your-local-amethyst>
 
 # Start local server
 make serve
@@ -34,10 +34,6 @@ make serve
 # View your site in a browser at http://localhost:1313/
 ```
 
-> [!INFO] Docker Support
->
-> If you have Docker installed already, open your terminal, navigate to your folder with Quartz and run `make docker`
+Now that you are happy with how your Amethyst instance looks, let's get it hosted!
 
-Now that you are happy with how your Quartz instance looks, let's get it hosted!
-
-> 🌍 Step 5: [Hosting Quartz online!](notes/hosting.md)
+> 🌍 Step 5: [Hosting Amethyst online!](setup/hosting.md)

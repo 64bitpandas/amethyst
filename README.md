@@ -1,6 +1,6 @@
 # Amethyst Hugo Theme
 
-[![Hugo](https://img.shields.io/badge/hugo-0.79-blue.svg)](https://gohugo.io)
+[![Hugo](https://img.shields.io/badge/hugo-0.96-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Amethyst combines the navigational features of [hugo-book](https://github.com/alex-shpak/hugo-book) with the Obsidian integrations of [quartz](https://github.com/jackyzha0/quartz) to provide a hassle-free place to store and host personal notes or documentation.
@@ -18,6 +18,11 @@ Insert screenshot here
 - Interactive graph view
 - Tab cards for practice problems
 
+## Documentation
+If you just want to use Amethyst for your own notes hosting, go to [amethyst.bencuan.me](https://amethyst.bencuan.me) for a demo and documentation on how to use it.
+
+Keep reading if you want to help develop Amethyst, or make changes to the code base for your own needs.
+
 ## Requirements
 
 - **Go 1.16 or higher**: [installation instructions](https://golang.org/doc/install)
@@ -26,59 +31,11 @@ Insert screenshot here
 - **Hugo-obsidian:** Run `go install github.com/jackyzha0/hugo-obsidian@latest`.
   - If you're getting a `command not found` error, [ensure that your PATH is configured properly so that binaries in the GOPATH can be executed](https://stackoverflow.com/questions/21001387/how-do-i-set-the-gopath-environment-variable-on-ubuntu-what-file-must-i-edit).
 
-## Installation
+## Live Server
 
-### Install as git submodule
-Navigate to your hugo project root and run:
+Start the live server using `make serve`. Content will be served to `localhost:1313` by default.
 
-```
-git submodule add https://github.com/64bitpandas/amethyst themes/amethyst
-```
-
-Then run hugo (or set `theme = "amethyst"`/`theme: amethyst` in configuration file)
-
-```
-hugo server --minify --theme amethyst
-```
-
-### Install as hugo module
-
-You can also add this theme as a Hugo module instead of a git submodule.
-
-Start with initializing hugo modules, if not done yet:
-```
-hugo mod init github.com/repo/path
-```
-
-Navigate to your hugo project root and add [module] section to your `config.toml`:
-
-```toml
-[module]
-[[module.imports]]
-path = 'github.com/alex-shpak/hugo-book'
-```
-
-Then, to load/update the theme module and run hugo:
-
-```sh
-hugo mod get -u
-hugo server --minify
-```
-
-### Creating site from scratch
-
-Below is an example on how to create a new site from scratch:
-
-```sh
-hugo new site mydocs; cd mydocs
-git init
-git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
-cp -R themes/hugo-book/exampleSite/content .
-```
-
-```sh
-hugo server --minify --theme hugo-book
-```
+The server will need to be restarted to preview changes to navigation (internal links and sidebar menu).
 
 ## Configuration
 
@@ -152,6 +109,7 @@ In addition to this, there are several empty partials you can override to easily
 | `assets/_custom.scss`    | Customise or override scss styles                                                     |
 | `assets/_variables.scss` | Override default SCSS variables                                                       |
 | `assets/_fonts.scss`     | Replace default font with custom fonts (e.g. local files or remote like google fonts) |
+| `assets/_colors.scss`    | Change the default color schemes |
 | `assets/mermaid.json`    | Replace Mermaid initialization config                                                 |
 
 ### Plugins
@@ -178,41 +136,18 @@ In fact almost empty not quite empty because an empty file looks like absent for
 <!-- -->
 ```
 
-## Shortcodes
-
-- [Buttons](https://hugo-book-demo.netlify.app/docs/shortcodes/buttons/)
-- [Columns](https://hugo-book-demo.netlify.app/docs/shortcodes/columns/)
-- [Details](https://hugo-book-demo.netlify.app/docs/shortcodes/details/)
-- [Hints](https://hugo-book-demo.netlify.app/docs/shortcodes/hints/)
-- [KaTeX](https://hugo-book-demo.netlify.app/docs/shortcodes/katex/)
-- [Mermaid](https://hugo-book-demo.netlify.app/docs/shortcodes/mermaid/)
-- [Tabs](https://hugo-book-demo.netlify.app/docs/shortcodes/tabs/)
-
-By default, Goldmark trims unsafe outputs which might prevent some shortcodes from rendering. It is recommended to set `markup.goldmark.renderer.unsafe=true` if you encounter problems.
-
-```toml
-[markup.goldmark.renderer]
-  unsafe = true
-```
-
-If you are using `config.yaml` or `config.json`, consult the [configuration markup](https://gohugo.io/getting-started/configuration-markup/)
-
 ## Versioning
 
 This theme follows a simple incremental versioning. e.g. `v1`, `v2` and so on. There might be breaking changes between versions.
 
-If you want lower maintenance, use one of the released versions. If you want to live on the bleeding edge of changes, you can use the `master` branch and update your website when needed.
+If you want lower maintenance, use one of the released versions. If you want to live on the bleeding edge of changes, you can use the `main` branch and update your website when needed.
 
 ## Contributing
 
-### [Extra credits to contributors](https://github.com/alex-shpak/hugo-book/graphs/contributors)
+Contributions are welcome! Please make an issue or pull request if there are any changes you'd like to see.
 
-Contributions are welcome and I will review and consider pull requests.  
-Primary goals are:
+## Credits
 
-- Keep it simple.
-- Keep minimal (or zero) default configuration.
-- Avoid interference with user-defined layouts.
-- Avoid using JS if it can be solved by CSS.
-
-Feel free to open issues if you find missing configuration or customisation options.
+A large portion of Amethyst's code base can be derived from the following two projects. Original attribution goes to the creators of these projects; I just put them together, squashed all the bugs, and customized the styles to fit my needs for Amethyst.
+ - [Hugo Book](https://github.com/alex-shpak/hugo-book)
+ - [Quartz](https://github.com/jackyzha0/quartz)

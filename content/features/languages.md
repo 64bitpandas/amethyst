@@ -10,4 +10,4 @@ title: "Chinese, Japanese, Korean Support (测试)"
 私たちがそれを知るほぼ前に、私たちは地面を離れていました。
 
 ## RTL
-More information on configuring RTL languages like Arabic in the [config](notes/config.md) page.
+More information on configuring RTL languages like Arabic in the [config](setup/config.md) page.
