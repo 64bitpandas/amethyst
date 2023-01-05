@@ -12,6 +12,8 @@
     --highlighted: #8446ff88;
     --header: #bca1ff;
     --title: rgb(55, 0, 255);
+    --scrollbar: gray;
+    --scrollbar-track: #DDD;
 }
 
 [saved-theme="dark"] {
@@ -27,4 +29,6 @@
     --highlighted: #574010;
     --header: #7838f8;
     --title: rgb(253, 116, 253);
+    --scrollbar: rgb(177, 177, 177);
+    --scrollbar-track: rgb(51, 51, 51);
 }

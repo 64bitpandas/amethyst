@@ -4,37 +4,37 @@
       "/": [
         {
           "source": "/",
-          "target": "/notes/search",
-          "text": "notes/search"
+          "target": "/setup/setup",
+          "text": "Setup your own Amethyst instance"
         },
         {
           "source": "/",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support"
+          "target": "/setup/editing",
+          "text": "Editing Notes in Amethyst"
         },
         {
           "source": "/",
-          "target": "/notes/callouts",
-          "text": "Admonition-style callouts"
+          "target": "/setup/obsidian",
+          "text": "How to setup your Obsidian Vault to work with Amethyst"
         },
         {
           "source": "/",
-          "target": "/notes/showcase",
-          "text": "amazing gardens that community members"
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
         },
         {
           "source": "/",
-          "target": "/notes/philosophy",
-          "text": "why I made Quartz"
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
         },
         {
           "source": "/",
-          "target": "/notes/setup",
-          "text": "Setup your own digital garden using Quartz"
+          "target": "/setup/config",
+          "text": "Customizing Amethyst"
         },
         {
           "source": "/",
-          "target": "/notes/updating",
+          "target": "/setup/updating",
           "text": "update"
         },
         {
@@ -44,18 +44,8 @@
         },
         {
           "source": "/",
-          "target": "/notes/troubleshooting",
+          "target": "/setup/troubleshooting",
           "text": "Troubleshooting and FAQ"
-        },
-        {
-          "source": "/",
-          "target": "/notes/foo",
-          "text": "notes/foo"
-        },
-        {
-          "source": "/",
-          "target": "/notes/foo/footest",
-          "text": "notes/foo/footest"
         }
       ],
       "/cs61b/": [
@@ -1516,76 +1506,6 @@
           "text": "More Resources"
         }
       ],
-      "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
-        {
-          "source": "/",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support"
-        }
-      ],
-      "/notes/callouts": [
-        {
-          "source": "/",
-          "target": "/notes/callouts",
-          "text": "Admonition-style callouts"
-        }
-      ],
-      "/notes/foo": [
-        {
-          "source": "/",
-          "target": "/notes/foo",
-          "text": "notes/foo"
-        }
-      ],
-      "/notes/foo/footest": [
-        {
-          "source": "/",
-          "target": "/notes/foo/footest",
-          "text": "notes/foo/footest"
-        }
-      ],
-      "/notes/philosophy": [
-        {
-          "source": "/",
-          "target": "/notes/philosophy",
-          "text": "why I made Quartz"
-        }
-      ],
-      "/notes/search": [
-        {
-          "source": "/",
-          "target": "/notes/search",
-          "text": "notes/search"
-        }
-      ],
-      "/notes/setup": [
-        {
-          "source": "/",
-          "target": "/notes/setup",
-          "text": "Setup your own digital garden using Quartz"
-        }
-      ],
-      "/notes/showcase": [
-        {
-          "source": "/",
-          "target": "/notes/showcase",
-          "text": "amazing gardens that community members"
-        }
-      ],
-      "/notes/troubleshooting": [
-        {
-          "source": "/",
-          "target": "/notes/troubleshooting",
-          "text": "Troubleshooting and FAQ"
-        }
-      ],
-      "/notes/updating": [
-        {
-          "source": "/",
-          "target": "/notes/updating",
-          "text": "update"
-        }
-      ],
       "/objects": [
         {
           "source": "/cs61b/oop/inheritance",
@@ -1652,6 +1572,11 @@
       ],
       "/setup/config": [
         {
+          "source": "/",
+          "target": "/setup/config",
+          "text": "Customizing Amethyst"
+        },
+        {
           "source": "/features/languages",
           "target": "/setup/config",
           "text": "config"
@@ -1676,6 +1601,11 @@
       ],
       "/setup/editing": [
         {
+          "source": "/",
+          "target": "/setup/editing",
+          "text": "Editing Notes in Amethyst"
+        },
+        {
           "source": "/setup/setup",
           "target": "/setup/editing",
           "text": "Editing Notes in Amethyst"
@@ -1692,6 +1622,11 @@
         }
       ],
       "/setup/hosting": [
+        {
+          "source": "/",
+          "target": "/setup/hosting",
+          "text": "Hosting Amethyst online!"
+        },
         {
           "source": "/setup/editing",
           "target": "/setup/hosting",
@@ -1732,6 +1667,11 @@
       ],
       "/setup/obsidian": [
         {
+          "source": "/",
+          "target": "/setup/obsidian",
+          "text": "How to setup your Obsidian Vault to work with Amethyst"
+        },
+        {
           "source": "/setup/editing",
           "target": "/setup/obsidian",
           "text": "How to setup your Obsidian Vault to work with Amethyst"
@@ -1743,6 +1683,11 @@
         }
       ],
       "/setup/preview-changes": [
+        {
+          "source": "/",
+          "target": "/setup/preview-changes",
+          "text": "Preview Changes"
+        },
         {
           "source": "/setup/editing",
           "target": "/setup/preview-changes",
@@ -1756,12 +1701,22 @@
       ],
       "/setup/setup": [
         {
+          "source": "/",
+          "target": "/setup/setup",
+          "text": "Setup your own Amethyst instance"
+        },
+        {
           "source": "/setup/obsidian",
           "target": "/setup/setup",
           "text": "setup"
         }
       ],
       "/setup/troubleshooting": [
+        {
+          "source": "/",
+          "target": "/setup/troubleshooting",
+          "text": "Troubleshooting and FAQ"
+        },
         {
           "source": "/setup/config",
           "target": "/setup/troubleshooting",
@@ -1781,6 +1736,13 @@
           "source": "/setup/setup",
           "target": "/setup/troubleshooting",
           "text": "FAQ and Troubleshooting guide"
+        }
+      ],
+      "/setup/updating": [
+        {
+          "source": "/",
+          "target": "/setup/updating",
+          "text": "update"
         }
       ],
       "/sorting/sorting-basics": [
@@ -1826,37 +1788,37 @@
   "links": [
     {
       "source": "/",
-      "target": "/notes/search",
-      "text": "notes/search"
+      "target": "/setup/setup",
+      "text": "Setup your own Amethyst instance"
     },
     {
       "source": "/",
-      "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-      "text": "CJK + Latex Support"
+      "target": "/setup/editing",
+      "text": "Editing Notes in Amethyst"
     },
     {
       "source": "/",
-      "target": "/notes/callouts",
-      "text": "Admonition-style callouts"
+      "target": "/setup/obsidian",
+      "text": "How to setup your Obsidian Vault to work with Amethyst"
     },
     {
       "source": "/",
-      "target": "/notes/showcase",
-      "text": "amazing gardens that community members"
+      "target": "/setup/preview-changes",
+      "text": "Preview Changes"
     },
     {
       "source": "/",
-      "target": "/notes/philosophy",
-      "text": "why I made Quartz"
+      "target": "/setup/hosting",
+      "text": "Hosting Amethyst online!"
     },
     {
       "source": "/",
-      "target": "/notes/setup",
-      "text": "Setup your own digital garden using Quartz"
+      "target": "/setup/config",
+      "text": "Customizing Amethyst"
     },
     {
       "source": "/",
-      "target": "/notes/updating",
+      "target": "/setup/updating",
       "text": "update"
     },
     {
@@ -1866,18 +1828,8 @@
     },
     {
       "source": "/",
-      "target": "/notes/troubleshooting",
+      "target": "/setup/troubleshooting",
       "text": "Troubleshooting and FAQ"
-    },
-    {
-      "source": "/",
-      "target": "/notes/foo",
-      "text": "notes/foo"
-    },
-    {
-      "source": "/",
-      "target": "/notes/foo/footest",
-      "text": "notes/foo/footest"
     },
     {
       "source": "/cs61b/SUMMARY",

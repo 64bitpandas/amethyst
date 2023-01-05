@@ -77,15 +77,17 @@ pre::-webkit-scrollbar {
     height: 10px;
 }
 
-*::-webkit-scrollbar-thumb {
-    background: grey;
+.book-toc-content::-webkit-scrollbar-thumb,
+.book-menu-content::-webkit-scrollbar-thumb {
+    background: var(--scrollbar);
     border-radius: 8px;
     // box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
-*::-webkit-scrollbar-track {
+.book-toc-content::-webkit-scrollbar-track,
+.book-menu-content::-webkit-scrollbar-track {
     // background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
-    background-color: #DDD;
+    background-color: var(--scrollbar-track);
 }
 
 .markdown h1,
@@ -123,11 +125,8 @@ pre::-webkit-scrollbar {
     color: var(--secondary);
 }
 
-.markdown-inner, .book-tabs {
+.markdown-inner,
+.book-tabs {
     font-family: var(--font-body);
     color: var(--dark);
-}
-
-.book-tabs {
-    border: solid black 1px;
 }
