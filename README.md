@@ -5,7 +5,7 @@
 
 Amethyst combines the navigational features of [hugo-book](https://github.com/alex-shpak/hugo-book) with the Obsidian integrations of [quartz](https://github.com/jackyzha0/quartz) to provide a hassle-free place to store and host personal notes or documentation.
 
-Insert screenshot here
+![amethyst screenshot](content/setup/images/amethyst-screenshot.png)
 
 ## Features
 - Most of the features of the original themes (Quartz and Book)
