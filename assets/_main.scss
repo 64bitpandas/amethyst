@@ -116,7 +116,8 @@ ul.pagination {
   }
 
   a.active {
-    color: var(--color-link);
+    color: var(--tertiary);
+    text-decoration: underline;
   }
 
   input.toggle + label + ul {
