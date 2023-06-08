@@ -1,87 +1,17 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=IBM+Plex+Sans:wght@400;600&display=swap');
 
 :root {
-  --font-body: "PP Mori", "Source Sans Pro", sans-serif;
-  --font-header: "PP Mori", "Source Sans Pro", sans-serif;
-  --font-mono: "PP Fraktion Mono", "Fira Code", monospace;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-header: "IBM Plex Sans", sans-serif;
+  --font-mono: "Fira Code", monospace;
 }
 
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/PPMori-SemiBold.woff2');
-}
+// Example local font declaration
 
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: lighter;
-  src: url('fonts/PPMori-Book.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: bold;
-  src: url('fonts/PPMori-SemiBold.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: 1000;
-  src: url('fonts/PPMori-ExtraBold.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: italic;
-  font-weight: normal;
-  src: url('fonts/PPMori-RegularItalic.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: italic;
-  font-weight: bold;
-  src: url('fonts/PPMori-SemiBoldItalic.woff2');
-}
-
-
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/PPFraktionMono-Regular.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: lighter;
-  src: url('fonts/PPFraktionMono-Bold.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: bold;
-  src: url('fonts/PPFraktionMono-Bold.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: italic;
-  font-weight: normal;
-  src: url('fonts/PPFraktionMono-RegularItalic.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: italic;
-  font-weight: bold;
-  src: url('fonts/PPFraktionMono-BoldItalic.woff2');
-}
+// @font-face {
+//   font-family: "PP Mori";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url('fonts/PPMori-SemiBold.woff2');
+// }
