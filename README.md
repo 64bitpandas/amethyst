@@ -3,20 +3,33 @@
 [![Hugo](https://img.shields.io/badge/hugo-0.96-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Amethyst combines the navigational features of [hugo-book](https://github.com/alex-shpak/hugo-book) with the Obsidian integrations of [quartz](https://github.com/jackyzha0/quartz) to provide a hassle-free place to store and host personal notes or documentation.
 
-![amethyst screenshot](content/setup/images/amethyst-screenshot.png)
+
+![amethyst screenshot](images/screenshot.png)
+
+## Why Amethyst?
+I write most of my [notes](https://notes.bencuan.me) in [Obsidian](https://obsidian.md/). When trying to find a suitable open-source alternative for Obsidian Publish, I couldn't find exactly what I was looking for: a simple, customizable theme with sidebar navigation that supported Obsidian features (like backlinks or LaTeX) in such a way that didn't require me to reformat my notes.
+
+Amethyst is an attempt to deliver this by combining the navigational features of [hugo-book](https://github.com/alex-shpak/hugo-book) with the Obsidian integrations of [quartz](https://github.com/jackyzha0/quartz) to provide a hassle-free place to store and host personal notes or documentation.
 
 ## Features
-- Most of the features of the original themes (Quartz and Book)
-- Mobile-friendly
-- Multi-language support
-- Customizable
-- Dark Mode
-- LaTeX support
-- Obsidian-style back/forward links and page previews
-- Interactive graph view
-- Tab cards for practice problems
+
+Amethyst preserves most of the features of quartz and hugo-book, including:
+ - Navigation sidebars on left and right of content
+ - Obsidian-style callouts 
+ - Interactive graph view
+ - MermaidJS charts
+ - User-togglable dark mode
+ - Search bar
+ - Multi-language support
+ - Mobile support
+ - Obsidian-style back/forward links and page previews
+
+Some new features that were added on top:
+ - Custom formatting of tabs, sections, and expands specifically for Q&A-style interaction
+ - Easy customization of theme colors and fonts
+ - LaTeX enabled out of the box with no additional config
+ - Support for both absolute and relative links, Obsidian-style
 
 ## Documentation
 If you just want to use Amethyst for your own notes hosting, go to [amethyst.bencuan.me](https://amethyst.bencuan.me) for a demo and documentation on how to use it.

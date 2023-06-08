@@ -7,7 +7,7 @@ Amethyst supports two modes of searching through content.
 ## Full-text
 Full-text search is the default in Amethyst. It produces results that *exactly* match the search query. This is easier to setup but usually produces lower quality matches.
 
-```yaml {title="data/config.yaml"}
+```yaml {title="config.yaml"}
 # the default option
 enableSemanticSearch: false
 ```
@@ -24,9 +24,9 @@ Here's how to set it up.
 3. Click into the index you've created. Under "Index Something", select "SITEMAP" from the dropdown and click "Add Source".
 4. For the "Sitemap.xml URL", put your deployed site's base URL followed by `sitemap.xml`. For example, for `amethyst.bencuan.me`, put `https://amethyst.bencuan.me/sitemap.xml`. Leave the URL Regex empty. 
 5. Get your API key. On the dashboard, under "API Keys", you can manage your API keys. If you don't already have an API key, click "Create API Key". You'll need this for the next step.
-6. Open `data/config.yaml`. Set `enableSemanticSearch` to `true`, `operandApiKey` to your copied key, and `operandIndexId` to the ID of the index we created from earlier..
+6. Open `config.yaml`. Set `enableSemanticSearch` to `true`, `operandApiKey` to your copied key, and `operandIndexId` to the ID of the index we created from earlier..
 
-```yaml {title="data/config.yaml"}
+```yaml {title="config.yaml"}
 # the default option
 search:
   enableSemanticSearch: true
