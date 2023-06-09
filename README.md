@@ -5,7 +5,7 @@
 
 
 
-![amethyst screenshot](images/screenshot.png)
+![amethyst screenshot](https://github.com/64bitpandas/amethyst/blob/e8429e790e25dc6f3318826905f4e4a031d04363/images/screenshot.png)
 
 ## Why Amethyst?
 I write most of my [notes](https://notes.bencuan.me) in [Obsidian](https://obsidian.md/). When trying to find a suitable open-source alternative for Obsidian Publish, I couldn't find exactly what I was looking for: a simple, customizable theme with sidebar navigation that supported Obsidian features (like backlinks or LaTeX) in such a way that didn't require me to reformat my notes.
